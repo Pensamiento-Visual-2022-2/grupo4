@@ -1,0 +1,262 @@
+body{
+  background: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+  background: #b194b8;
+  height: 100px;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  color: white
+}
+h2{
+  background: #b194b8;
+  height: 60px;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  line-height: 60px;
+  color: white
+}
+
+h3{
+  text-align: center;
+  font-size: 25px;
+}
+
+nav{
+  background: #b194b8;
+  height: 50px;
+  width: 100%;
+  text-align:center;
+  margin: 10px;   
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+  line-height: 20px;
+  text-decoration:none;
+  color: #9587ae !important;
+  font-size: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.clearfix{
+  clear: both;
+}
+
+#grafico_1{
+  padding: 10px; 
+  margin: 10px; 
+  float: left; 
+  width: 450px; 
+}
+
+#silla{
+  padding: 10px; 
+  margin: 10px; 
+  float: left; 
+  width: 500px; 
+}
+
+.referencias{
+  float: left;
+  font-size: 20px;
+  padding: 10px; 
+  margin: 10px; 
+  width: 300px; 
+  height: 80px;
+}
+
+
+.logo{
+  margin-right: 10px;
+  float: left;
+  width: 100px; 
+}
+
+#pie{
+  background-color: #b194b8;
+  height: 400px;
+  width: 100%;
+  margin: 10px;
+}
+
+.textoprimerasección{
+  width: 100%;
+  max-width: 1000px;
+  background-color: white;
+  margin-top: 0px;
+}
+.textoprimerasección img{
+  width:  600px;
+  float: right;
+  margin-left: 80px;
+  margin-right: 0px;
+}
+.textoprimerasección p{
+  font-size: 18px;
+  font-weight: 300px;
+  margin-left: 50px;
+
+}
+
+.imagenes{
+  font-size: 50px;
+  font-weight: 500px;
+  font-display: bold;
+  margin-left: 100px;
+  float: right;
+}
+
+#parrafo2{
+  font-size: 20px;
+  font-weight: 500px;
+  margin-left: 400px;
+  float: none;
+  margin-top: 170px;
+
+}
+.textos2primerasección img{
+  width:  400px;
+  float: left;
+  margin-left: 550px;
+}
+
+.imagenes2{
+  font-size: 20px;
+  font-weight: 500px;
+  margin-left: 735px;
+  float: none;
+}
+
+.color-select{
+  width: 1400px;
+  height: 5px;
+  background-color: #566B66 ;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.images img{
+  width:  1200px;
+  float: left;
+  margin-left: 100px;
+
+}
+.color-select div{
+  width: 30px;
+  height: 30px;
+  background: #B194B8;
+  border-radius: 50%;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.color-select p{
+  margin-top: 1px;
+}
+
+.tooltip{
+  width: 200px;
+  position: relative;
+  padding-left: 1000px;
+  border: 1px solid #b194b8;
+}
+.tooltip.tooltiptext{
+  visibility: hidden;
+  width: 200px;
+  background-color: aqua;
+  color: black;
+  text-align: start;
+  border-radius: 6px;
+  padding: 15px;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+
+}
+h2{
+  background: #b194b8;
+  height: 60px;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  line-height: 60px;
+  color: white
+}
+
+.tooltip:hover.tooltiptext{
+  visibility: visible;
+}
+
+.contenedor{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  float:left;
+} 
+
+.tooltip{
+  width: 200px;
+  position: relative;
+  padding-left: 50px;
+  border: 1px solid #b194b8;
+}
+.tooltip.tooltiptext{
+  visibility: hidden;
+  width: 200px;
+  background-color: aqua;
+  color: black;
+  text-align: start;
+  border-radius: 6px;
+  padding: 15px;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 10%;
+
+}
+h2{
+  background: #b194b8;
+  height: 60px;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  line-height: 60px;
+  color: white
+}
+
+.tooltip:hover.tooltiptext{
+  visibility: visible;
+}
+h3{
+  text-align: center;
+  font-size: 25px;
+}
+
+.posicion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+

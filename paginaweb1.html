@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Investigación Brecha de Género Profesional en Chile </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link href="main.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div>
+        <header> <h1> ¿Yo en STEM? </h1> </header>
+    </div>
+    <nav>
+        <ul>
+            <li> <a href="#seccion_1"> Contexto  </a> </li>
+            <li> <a href="#seccion_2"> Análisis Histórico  </a> </li>
+            <li> <a href="#seccion_3"> Desigualdad  </a> </li>
+            <li> <a href="#seccion_4"> Representantes  </a> </li>
+            <li> <a href="#seccion_5"> Referencias  </a> </li>
+        </ul>
+    </nav>
+    <div class="clearfix"></div>
+    
+    <section id="seccion_1">
+        <h2> ¿Qué es el área STEM? </h2>
+        <div class="textoprimerasección">      
+            <div class="imagenes" href="#" onmouseover="cambiar4();" onmouseout="volver();"><strong>M</strong></div>
+            <div class="imagenes"  href="#" onmouseover="cambiar3();" onmouseout="volver();"><strong>E</strong></div>
+            <div class="imagenes" href="#" onmouseover="cambiar2();" onmouseout="volver();"><strong>T</strong></div>
+            <div class="imagenes" href="#" onmouseover="cambiar1();" onmouseout="volver();"><strong>S</strong></div>
+            <img src="./imagenes/niña_morada.png" id="matrix">
+            <p>El trabajo en STEM puede contribuir al <strong>desarrollo sostenible</strong>, la mejora de las vidas de las personas la promoción de la prosperidad, sin dejar de proteger el planeta (ONU mujeres). </p> 
+            <p> Y aun así hay una mayor cantidad de hombres que de mujeres en el rubro.</p>
+            <p>Entonces,  ¿Qué estas esperando?</p>
+        </div>
+        <div class="textos2primerasección">
+            <p id="parrafo2">Para saber la cantidad de mujeres que hay en esta area en comparación pasa el mouse por</p>
+            <div class="imagenes2" href="#" onmouseover="cambiar2a();" onmouseout="volver2a();"><strong>aca</strong></div>
+            <img src="./imagenes/porcentajeniñas.png" id="matrix2">
+        </div>
+    </section>
+    <script type='text/javascript'>
+    function cambiar1(){
+        document.getElementById('matrix').src="./imagenes/ciencia.png";
+    }
+    function volver(){
+        document.getElementById('matrix').src="./imagenes/niña_morada.png";
+    }
+    function cambiar2(){
+        document.getElementById('matrix').src="./imagenes/tecnologia.png";
+    }
+    function cambiar3(){
+        document.getElementById('matrix').src="./imagenes/ingenieria.png";
+    }
+    function cambiar4(){
+        document.getElementById('matrix').src="./imagenes/matematica.png";
+    }
+    function cambiar2a(){
+        document.getElementById('matrix2').src="./imagenes/porcentajeniñas2.png";
+    }
+    function volver2a(){
+        document.getElementById('matrix2').src="./imagenes/porcentajeniñas.png";
+    }
+    function cambiars3a(){
+        document.getElementById('matrix3').src="./imagenes/porcentajeniñas2.png";
+    }
+    function cambiars3b(){
+        document.getElementById('matrix3').src="./imagenes/matematica.png";
+    }
+    function volvers3(){
+        document.getElementById('matrix3').src="./imagenes/porcentajeniñas.png";
+    }
+    </script>
+    <div class="clearfix"></div>
+    <section id="seccion_2">
+        <h2> ¿Cómo ha aumentado la participación de las mujeres en carreras de STEM? </h2>
+        <div id="fotos_seccion_2">
+            <img id="grafico_1" src="./imagenes/gráfico_s2.PNG" alt="Gráfico de acuerdo al tiempo de participación de las mujeres en STEM"/>
+            <img id="silla" src="./imagenes/silla_s2.PNG" alt="Silla de clases"/>
+        </div>
+    </section>
+    
+    <div class="clearfix"></div>
+    <section id="seccion_3">
+        <h2> Pero aún queda camino por recorrer... </h2>
+        <div class="container">
+            <div class="color-select">
+            <div id="boton1"><p>2010</p></div>
+            <div id="boton2"><p>2011</p></div>
+            <div id="boton3"><p>2012</p></div>
+            <div id="boton4"><p>2013</p></div>
+            <div id="boton5"><p>2014</p></div>
+            <div id="boton6"><p>2015</p></div>
+            <div id="boton7"><p>2016</p></div>
+            <div id="boton8"><p>2017</p></div>
+            <div id="boton9"><p>2018</p></div>
+            <div id="boton10"><p>2019</p></div>
+        </div>
+        <div class="images">
+            <img src="./imagenes/años1.png" id="imgchange" alt=""> 
+        </div>
+    </section>
+    <script type='text/javascript'>
+    let b1Btn = document.getElementById("boton1")
+    let b2Btn = document.getElementById("boton2")
+    let b3Btn = document.getElementById("boton3")
+    let b4Btn = document.getElementById("boton4")
+    let b5Btn = document.getElementById("boton5")
+    let b6Btn = document.getElementById("boton6")
+    let b7Btn = document.getElementById("boton7")
+    let b8Btn = document.getElementById("boton8")
+    let b9Btn = document.getElementById("boton9")
+    let b10Btn = document.getElementById("boton10")
+    let imgchange = document.getElementById("imgchange")
+    b10Btn.onclick = function () {
+        imgchange.src = "./imagenes/años1.png"
+    }
+    b9Btn.onclick = function () {
+        imgchange.src = "./imagenes/años2.png"
+    }
+    b8Btn.onclick = function () {
+        imgchange.src = "./imagenes/años3.png"
+    }
+    b7Btn.onclick = function () {
+        imgchange.src = "./imagenes/años4.png"
+    }
+    b6Btn.onclick = function () {
+        imgchange.src = "./imagenes/años5.png"
+    }
+    b5Btn.onclick = function () {
+        imgchange.src = "./imagenes/años6.png"
+    }
+    b4Btn.onclick = function () {
+        imgchange.src = "./imagenes/años7.png"
+    }
+    b3Btn.onclick = function () {
+        imgchange.src = "./imagenes/años8.png"
+    }
+    b2Btn.onclick = function () {
+        imgchange.src = "./imagenes/años9.png"
+    }
+    b1Btn.onclick = function () {
+        imgchange.src = "./imagenes/años10.png"
+    }
+    $(document).ready(function(){
+        ("#subtitle").mouseenter(function(){$(this).stop().animate({"left":"0px"},"fast");
+    })});
+    </script>
+
+    <div class="clearfix"></div>
+    <section id="seccion_4">
+        <h2> Mujeres según área. ¡Inspirate! </h2>
+        <div class="posicion">
+            <div class="contenedor">
+                <img src="./imagenes/i1.png"  width="250" height="250">
+                <h4 class="contenedor">Matemática</h4> 
+                <span class="tooltiptext">
+                    <h3> Dorothy Vaughan 1910-2008</h3>
+                    <p> Trabajó en la agencia que precedió a la NASA. En 1949 se hizo cargo de la dirección de la West Area Computers, un equipo de trabajo compuesto exclusivamente por mujeres afroamericanas con formación matemática.</p>
+                </span>
+            </div>
+            <div class="contenedor">
+                <img src="./imagenes/i2.png"  width="250" height="250">
+                <h4 class="contenedor">Ciencia</h4>
+                <span class="tooltiptext">
+                    <h3> Marie Curie 1867-1934</h3>
+                    <p>Física y química cuya investigación sobre radioactividad sentó las bases para la ciencia nuclear moderna, desde los rayos X hasta la radioterapia para el tratamiento del cáncer.
+                    Fue la primera mujer en ganar el premio Nobel y la primera persona en ganar dos premios Nobel en distintas ciencias.</p>
+                </span>
+            </div>
+            <div class="contenedor">
+                <img src="./imagenes/i3.png"  width="250" height="250">
+                <h4 class="contenedor">Tecnología</h4>  
+                <span class="tooltiptext">
+                    <h3>Ada Lovelance 1815-1852</h3>
+                    <p>Dedujo la capacidad de los computadores para ir más allá de los simples cálculos numéricos. Fue la primera persona en la historia en escribir un programa para computador programable.</p>
+                </span>
+            </div>
+            <div class="contenedor">
+                <img src="./imagenes/i4.png"  width="250" height="250">
+                <h4 class="contenedor">Ingeniería</h4>
+                <span class="tooltiptext">
+                    <h3>Ellen Swallow 1842-1911</h3>
+                    <p>Denominada la madre de la ingeniería ambiental por sus estudios sobre la calidad de las aguas en Massachusetts en 1870 desarrollando métodos que se utilizan aún en la actualidad.</p>
+                </span>  
+            </div>
+        </div>
+
+    </section>
+    <div class="clearfix"></div>
+
+    <section id="seccion_5">
+        <h3> Otras plataformas que podrían interesarte </h3>
+        <div class="referencias">
+            <img class="logo" src="./imagenes/pontifcia_s5.png" alt="Logo Pontificia Universidad Católica de Chile"/>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgdUX-wWjOVObWgzfANLvxZi1sH9f3vtO9ZZcH_j0aI7kBbg" title="enlace">
+                UC abre nueva vía de admisión para mujeres científicas
+            </a>
+        </div>
+        <div class="referencias">
+            <img class="logo" src="./imagenes/pontifcia_s5.png" alt="Logo Pontificia Universidad Católica de Chile"/>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgdUX-wWjOVObWgzfANLvxZi1sH9f3vtO9ZZcH_j0aI7kBbg" title="enlace">
+                Mujeres ingeniería UC
+            </a>
+        </div> 
+        <div class="referencias">
+            <img class="logo" src="./imagenes/universidad_de_chile_logo_s5.jpg" alt="Logo Universidad de Chile"/>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgdUX-wWjOVObWgzfANLvxZi1sH9f3vtO9ZZcH_j0aI7kBbg" title="enlace">
+                Ingreso Prioritario de Equidad de Género
+            </a>
+        </div>
+        <div class="referencias">
+            <img class="logo" src="./imagenes/universidad_adolfo_ibañez_logo_s5.png" alt="Logo Universidad Adolfo Ibañez"/>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgdUX-wWjOVObWgzfANLvxZi1sH9f3vtO9ZZcH_j0aI7kBbg" title="enlace">
+                Mujeres en STEM UAI
+            </a>
+        </div>
+    </section>
+
+    <div class="clearfix"></div>
+    
+    <section id="pie">
+
+    </section>
+  </body>
+</html>
+
+
+
+
+  
+
+
+
