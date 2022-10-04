@@ -70,14 +70,167 @@
         document.getElementById('matrix3').src="./imagenes/porcentajeniñas.png";
     }
     </script>
-    <div class="clearfix"></div>
+    <div class="clearfix"></div>s
     <section id="seccion_2">
         <h2> ¿Cómo ha aumentado la participación de las mujeres en carreras de STEM? </h2>
-        <div id="fotos_seccion_2">
+        <div class="vertical"> 
             <img id="grafico_1" src="./imagenes/gráfico_s2.PNG" alt="Gráfico de acuerdo al tiempo de participación de las mujeres en STEM"/>
-            <img id="silla" src="./imagenes/silla_s2.PNG" alt="Silla de clases"/>
+            <div class="horizontal">
+                <button id="p1_s2" onclick="mostrar_periodo_1();" class="periodos_s2"> 2005-2008 </button>
+                <button id="p2_s2" onclick="mostrar_periodo_2();" class="periodos_s2"> 2008-2011 </button>
+                <button id="p3_s2" onclick="mostrar_periodo_3();" class="periodos_s2"> 2011-2013 </button>
+                <button id="p4_s2" onclick="mostrar_periodo_4();" class="periodos_s2"> 2013-2017 </button>
+                <button id="p5_s2" onclick="mostrar_periodo_5();" class="periodos_s2"> 2017-2020 </button>
+                <button id="p6_s2" onclick="mostrar_periodo_6();" class="periodos_s2"> 2020-2021 </button>
+                        
+            </div>
         </div>
+        <img id="silla" src="./imagenes/silla_s2.PNG" alt="Silla de clases"/>
+        <div id="mujeres_logos">
+            <img id="mujer_1" class="persona_m11" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <img id="mujer_2" class="persona_m1" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <img id="mujer_3" class="persona_m2" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <img id="mujer_4" class="persona_m1" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <img id="mujer_5" class="persona_m2" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <img id="mujer_6" class="persona_m1" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <img id="mujer_7" class="persona_m2" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <img id="mujer_8" class="persona_m1" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <img id="mujer_9" class="persona_m2" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <img id="mujer_10" class="persona_m1" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+        </div>
+        
+        <div id="libros">
+            <img id="libros_s" src="./imagenes/nada_s2.png" alt="Prueba"/>
+            <img id="libros_t" src="./imagenes/nada_s2.png" alt="Prueba"/>
+            <img id="libros_e" src="./imagenes/nada_s2.png" alt="Prueba"/>
+            <img id="libros_m" src="./imagenes/nada_s2.png" alt="Prueba"/>
+        </div>
+
+
     </section>
+
+    <script type='text/javascript'>
+        function mostrar_periodo_1(){
+            document.getElementById("mujeres_logos").style.display = "block";
+            document.getElementById("mujer_1").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_2").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_3").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_4").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_5").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_6").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_7").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_8").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_9").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_10").src = "./imagenes/hombre_s2.png";
+
+            document.getElementById("libros").style.display = "block";
+            document.getElementById("libros_s").src = "./imagenes/l2_s2.png";
+            document.getElementById("libros_t").src = "./imagenes/20p_s2.png";
+            document.getElementById("libros_e").src = "./imagenes/60p_s2.png";
+            document.getElementById("libros_m").src = "./imagenes/l3_s2.png";  
+        }
+
+        function mostrar_periodo_2(){
+            document.getElementById("mujeres_logos").style.display = "block";
+            document.getElementById("mujer_1").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_2").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_3").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_4").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_5").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_6").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_7").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_8").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_9").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_10").src = "./imagenes/hombre_s2.png";
+
+            document.getElementById("libros").style.display = "block";
+            document.getElementById("libros_s").src = "./imagenes/l2_s2.png";
+            document.getElementById("libros_t").src = "./imagenes/50p_s2.png";
+            document.getElementById("libros_e").src = "./imagenes/30p_s2.png";
+            document.getElementById("libros_m").src = "./imagenes/l3_s2.png";
+        }
+
+        function mostrar_periodo_3(){
+            document.getElementById("mujeres_logos").style.display = "block";
+            document.getElementById("mujer_1").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_2").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_3").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_4").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_5").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_6").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_7").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_8").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_9").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_10").src = "./imagenes/hombre_s2.png";
+
+            document.getElementById("libros").style.display = "block";
+            document.getElementById("libros_s").src = "./imagenes/20p_s2.png";
+            document.getElementById("libros_t").src = "./imagenes/l2_s2.png";
+            document.getElementById("libros_e").src = "./imagenes/50p_s2.png";
+            document.getElementById("libros_m").src = "./imagenes/20p_s2.png";
+        }
+
+        function mostrar_periodo_4(){
+            document.getElementById("mujeres_logos").style.display = "block";
+            document.getElementById("mujer_1").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_2").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_3").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_4").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_5").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_6").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_7").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_8").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_9").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_10").src = "./imagenes/hombre_s2.png";
+
+            document.getElementById("libros").style.display = "block";
+            document.getElementById("libros_s").src = "./imagenes/20p_s2.png";
+            document.getElementById("libros_t").src = "./imagenes/20p_s2.png";
+            document.getElementById("libros_e").src = "./imagenes/40p_s2.png";
+            document.getElementById("libros_m").src = "./imagenes/20p_s2.png";
+        }
+        
+        function mostrar_periodo_5(){
+            document.getElementById("mujeres_logos").style.display = "block";
+            document.getElementById("mujer_1").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_2").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_3").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_4").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_5").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_6").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_7").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_8").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_9").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_10").src = "./imagenes/hombre_s2.png";
+
+            document.getElementById("libros").style.display = "block";
+            document.getElementById("libros_s").src = "./imagenes/l2_s2.png";
+            document.getElementById("libros_t").src = "./imagenes/20p_s2.png";
+            document.getElementById("libros_e").src = "./imagenes/60p_s2.png";
+            document.getElementById("libros_m").src = "./imagenes/l3_s2.png";
+        }
+
+        function mostrar_periodo_6(){
+            document.getElementById("mujeres_logos").style.display = "block";
+            document.getElementById("mujer_1").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_2").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_3").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_4").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_5").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_6").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_7").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_8").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_9").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_10").src = "./imagenes/hombre_s2.png";
+
+            document.getElementById("libros").style.display = "block";
+            document.getElementById("libros_s").src = "./imagenes/20p_s2.png";
+            document.getElementById("libros_t").src = "./imagenes/l1_s2.png";
+            document.getElementById("libros_e").src = "./imagenes/30p_s2.png";
+            document.getElementById("libros_m").src = "./imagenes/50p_s2.png";
+        }
+
+    </script>
     
     <div class="clearfix"></div>
     <section id="seccion_3">
@@ -192,25 +345,25 @@
         <h3> Otras plataformas que podrían interesarte </h3>
         <div class="referencias">
             <img class="logo" src="./imagenes/pontifcia_s5.png" alt="Logo Pontificia Universidad Católica de Chile"/>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgdUX-wWjOVObWgzfANLvxZi1sH9f3vtO9ZZcH_j0aI7kBbg" title="enlace">
+            <a href="https://www.ing.uc.cl/vida-universitaria/mujeres-ingenieria-uc/ " title="enlace">
                 UC abre nueva vía de admisión para mujeres científicas
             </a>
         </div>
         <div class="referencias">
             <img class="logo" src="./imagenes/pontifcia_s5.png" alt="Logo Pontificia Universidad Católica de Chile"/>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgdUX-wWjOVObWgzfANLvxZi1sH9f3vtO9ZZcH_j0aI7kBbg" title="enlace">
+            <a href="https://www.uc.cl/noticias/uc-abre-nueva-via-de-admision-para-mujeres-cientificas/ " title="enlace">
                 Mujeres ingeniería UC
             </a>
         </div> 
         <div class="referencias">
             <img class="logo" src="./imagenes/universidad_de_chile_logo_s5.jpg" alt="Logo Universidad de Chile"/>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgdUX-wWjOVObWgzfANLvxZi1sH9f3vtO9ZZcH_j0aI7kBbg" title="enlace">
+            <a href="https://www.uchile.cl/presentacion/asuntos-academicos/pregrado/admision-especial/equidad-de-genero " title="enlace">
                 Ingreso Prioritario de Equidad de Género
             </a>
         </div>
         <div class="referencias">
             <img class="logo" src="./imagenes/universidad_adolfo_ibañez_logo_s5.png" alt="Logo Universidad Adolfo Ibañez"/>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdgdUX-wWjOVObWgzfANLvxZi1sH9f3vtO9ZZcH_j0aI7kBbg" title="enlace">
+            <a href="https://admision.uai.cl/2022/08/13/mujeres-en-stem-uai/" title="enlace">
                 Mujeres en STEM UAI
             </a>
         </div>
