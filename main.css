@@ -280,7 +280,7 @@ nav ul li{
 } 
 
 .tooltip{
-  width: 200px;
+  width: 100px;
   position: relative;
   padding-left: 50px;
   border: 1px solid #b194b8;
@@ -325,7 +325,7 @@ h3{
 }
 
 .wrap{
-  width: 500px;
+  width: 100px;
   max-width: 90%;
   margin: 30px auto;
 }
@@ -343,7 +343,7 @@ ul.tabs li a{
   justify-content: center;
   align-items: center;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 40px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -355,7 +355,7 @@ ul.tabs li a{
 
 .secciones article{
   padding: 10px;
-  font-size: 20px;
+  font-size: 10px;
 }
 
 .secciones article p{
@@ -368,4 +368,47 @@ ul.tabs li a{
 
 ul.tabs li a .tab-text{
   margin-right: 70px;
+}
+h3{
+  text-align: center;
+  font-size: 15px;
+}
+
+nav{
+  background: #b194b8;
+  height: 60px;
+  width: 100%;
+  text-align:center;
+	margin: 10px;
+}
+
+nav ul{
+	display: inline-block;
+	text-align: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 5px 10px;
+
+}
+
+nav ul li a{
+  color: white !important;
+  font-size: 15px;
+  padding: 20px;
+  text-decoration:none;
+  display:block;
+  line-height: 10px;
+}
+
+nav ul li a:hover{
+	background: #a75fea;
+}
+
+.clearfix{
+  clear: both;
 }
