@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Investigación Brecha de Género Profesional en Chile </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link href="main copy.css" rel="stylesheet"/>
+    <script src="text.js"></script>
+  </head>
+  <body>
+    <button id="Matemática"></button>
+
+    <script src="text.js"></script>
+    <div>
+        <header> <h1> ¿Yo en STEM? </h1> </header>
+    </div>
+    <nav>
+        <ul>
+            <li> <a href="#seccion_1"> Contexto  </a> </li>
+            <li> <a href="#seccion_2"> Análisis Histórico  </a> </li>
+            <li> <a href="#seccion_3"> Desigualdad  </a> </li>
+            <li> <a href="#seccion_4"> Representantes  </a> </li>
+            <li> <a href="#seccion_5"> Referencias  </a> </li>
+        </ul>
+    </nav>
+    <div class="clearfix"></div>
+
+    <div class="seccion_izquierda">
+        <div class="horizontal">
+        <div class="imagenes" href="#" onmouseover="cambiar1();" onmouseout="volver();"><strong>S</strong></div>
+        <div class="imagenes"  href="#" onmouseover="cambiar2();" onmouseout="volver();"><strong>T</strong></div>
+        <div class="imagenes" href="#" onmouseover="cambiar3();" onmouseout="volver();"><strong>E</strong></div>
+        <div class="imagenes" href="#" onmouseover="cambiar4();" onmouseout="volver();"><strong>M</strong></div>
+        </div>
+        <img src="./imagenes/niña_morada.png" id="matrix">
+        <img src="./imagenes/porcentajeniñas.png" id="matrix2">
+        <div class="imagenes2" href="#" onmouseover="cambiar2a();" onmouseout="volver2a();"><strong>aca</strong></div>
+    </div>
+
+    <div class="seccion_derecha">
+        <div class="centrar_texto">
+        <h2> ¿Qué es el área STEM? </h2>
+        <div id="s1_p_stem" class="s1_texto">
+            <p> El trabajo en STEM puede contribuir al <strong>desarrollo sostenible</strong>, 
+              la mejora de las vidas de las personas la promoción de la prosperidad, 
+              sin dejar de proteger el planeta (ONU mujeres). </p> 
+            <p> Y aun así hay una mayor cantidad de hombres que de mujeres en el rubro.</p>
+            <p>Entonces, ¿Qué estas esperando?</p>
+        </div>
+        <p id="s1_p_s" class="s1_texto">
+            Algunos logros de la ciencia:
+            Nos permite vivir más tiempo y mejor
+            Cuida de nuestra salud, 
+            Nos ayuda a conseguir agua
+            suministra energía y nos hace la vida más agradable.
+            La ciencia alimenta nuestro espíritu. (Unesco)
+        </p>
+        <p id="s1_p_t" class="s1_texto">
+            Las carreras de tecnología le dan énfasis a la práctica y 
+            la investigación de acuerdo a los dinámicos avances tecnológicos. 
+            Se vale de materiales, herramientas y procesos para resolver 
+            problemas, de esta manera satisface las necesidades de la sociedad 
+            y el medio ambiente. (chile estudia)
+        </p>
+        <p id="s1_p_e" class="s1_texto">
+            La ingeniería tiene el propósito de :desarrollar, inventar y mejorar 
+            las herramientas y técnicas para la resolución de problemas de todo tipo.
+            Aplica principios científicos para diseñar y construir objetos de gran 
+            utilidad en la sociedad (Chile estudia)
+        </p>
+        <p id="s1_p_m" class="s1_texto">
+            Las matemáticas son necesarias para todo lo que engloba el campo 
+            de las ciencias exactas . Además se necesitan para analizar datos, 
+            solucionar problemas, establecer conexiones y más por lo que están 
+            presente en la mayoría de las areas.
+            (Chile estudia).
+        </p>
+        </div>
+        
+    </div>
+    
+
+    <script type='text/javascript'>
+        function cambiar1(){
+            document.getElementById('matrix').src="./imagenes/ciencia.png";
+            document.getElementById('s1_p_stem').style.display = "none";
+            document.getElementById('s1_p_s').style.display = "block";
+        }
+        function volver(){
+            document.getElementById('matrix').src="./imagenes/niña_morada.png";
+            document.getElementById('s1_p_stem').style.display = "block";
+            document.getElementById('s1_p_s').style.display = "none";
+            document.getElementById('s1_p_t').style.display = "none";
+            document.getElementById('s1_p_e').style.display = "none";
+            document.getElementById('s1_p_m').style.display = "none";
+        }
+        function cambiar2(){
+            document.getElementById('matrix').src="./imagenes/tecnologia.png";
+            document.getElementById('s1_p_stem').style.display = "none";
+            document.getElementById('s1_p_t').style.display = "block";
+        }
+        function cambiar3(){
+            document.getElementById('matrix').src="./imagenes/ingenieria.png";
+            document.getElementById('s1_p_stem').style.display = "none";
+            document.getElementById('s1_p_e').style.display = "block";
+
+        }
+        function cambiar4(){
+            document.getElementById('matrix').src="./imagenes/matematica.png";
+            document.getElementById('s1_p_stem').style.display = "none";
+            document.getElementById('s1_p_m').style.display = "block";
+        }
+        function cambiar2a(){
+            document.getElementById('matrix2').src="./imagenes/porcentajeniñas2.png";
+        }
+        function volver2a(){
+            document.getElementById('matrix2').src="./imagenes/porcentajeniñas.png";
+        }
+
+    </script>
+    
+    <div id="seccion2_izquierda" class="seccion_izquierda">
+        <div class="horizontal">
+            <button id="p1_s2" onclick="mostrar_periodo_1();" class="periodos_s2"> 2005-2008 </button>
+            <button id="p2_s2" onclick="mostrar_periodo_2();" class="periodos_s2"> 2008-2011 </button>
+            <button id="p3_s2" onclick="mostrar_periodo_3();" class="periodos_s2"> 2011-2013 </button>
+            <button id="p4_s2" onclick="mostrar_periodo_4();" class="periodos_s2"> 2013-2017 </button>
+            <button id="p5_s2" onclick="mostrar_periodo_5();" class="periodos_s2"> 2017-2020 </button>
+            <button id="p6_s2" onclick="mostrar_periodo_6();" class="periodos_s2"> 2020-2021 </button>
+        </div>
+        
+        <div id="mujeres_logos">
+            <img id="mujer_1" class="persona_m11" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <img id="mujer_2" class="persona_m1" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <img id="mujer_3" class="persona_m2" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <img id="mujer_4" class="persona_m1" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <img id="mujer_5" class="persona_m2" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <img id="mujer_6" class="persona_m1" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <img id="mujer_7" class="persona_m2" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <img id="mujer_8" class="persona_m1" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <img id="mujer_9" class="persona_m2" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <img id="mujer_10" class="persona_m1" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+        </div>
+        
+    </div>
+    <div id="seccion2_derecha" class="seccion_derecha"></div>
+
+    </section>
+
+    <script type='text/javascript'>
+        function mostrar_periodo_1(){
+            document.getElementById("mujeres_logos").style.display = "block";
+            document.getElementById("mujer_1").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_2").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_3").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_4").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_5").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_6").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_7").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_8").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_9").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_10").src = "./imagenes/hombre_s2.png";
+        }
+
+        function mostrar_periodo_2(){
+            document.getElementById("mujeres_logos").style.display = "block";
+            document.getElementById("mujer_1").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_2").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_3").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_4").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_5").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_6").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_7").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_8").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_9").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_10").src = "./imagenes/hombre_s2.png";
+        }
+
+        function mostrar_periodo_3(){
+            document.getElementById("mujeres_logos").style.display = "block";
+            document.getElementById("mujer_1").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_2").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_3").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_4").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_5").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_6").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_7").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_8").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_9").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_10").src = "./imagenes/hombre_s2.png";
+        }
+
+        function mostrar_periodo_4(){
+            document.getElementById("mujeres_logos").style.display = "block";
+            document.getElementById("mujer_1").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_2").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_3").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_4").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_5").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_6").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_7").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_8").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_9").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_10").src = "./imagenes/hombre_s2.png";
+        }
+        
+        function mostrar_periodo_5(){
+            document.getElementById("mujeres_logos").style.display = "block";
+            document.getElementById("mujer_1").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_2").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_3").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_4").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_5").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_6").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_7").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_8").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_9").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_10").src = "./imagenes/hombre_s2.png";
+
+        }
+
+        function mostrar_periodo_6(){
+            document.getElementById("mujeres_logos").style.display = "block";
+            document.getElementById("mujer_1").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_2").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_3").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_4").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_5").src = "./imagenes/mujer_s2.png";
+            document.getElementById("mujer_6").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_7").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_8").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_9").src = "./imagenes/hombre_s2.png";
+            document.getElementById("mujer_10").src = "./imagenes/hombre_s2.png";
+
+        }
+    </script>
+
+    <section id="seccion_4">
+        <div id="seccion4_derecha" class="seccion_derecha">
+            <div id="s4_p1" ><h2> Mujeres según área. ¡Inspirate! </h2></div>
+            <article id="s4_ps" class = "oculto">
+                <h3> Marie Curie 1867-1934</h3>
+                <p> Física y química cuya investigación sobre radioactividad 
+                  sentó las bases para la ciencia nuclear moderna, desde los rayos 
+                  X hasta la radioterapia para el tratamiento del cáncer. Fue la primera 
+                  mujer en ganar el premio Nobel y la primera persona en ganar dos 
+                  premios Nobel en distintas ciencias.
+                </p>
+            </article>
+
+            <article id="s4_pt" class = "oculto">
+                <h3> Ada Lovelance 1815-1852</h3>
+                <p> Dedujo la capacidad de los computadores para ir más 
+                  allá de los simples cálculos numéricos. Fue la primera 
+                  persona en la historia en escribir un programa para computador
+                  programable.
+                </p>
+            </article>
+
+            <article id="s4_pe" class = "oculto">
+                <h3> Ellen Swallow 1842-1911</h3>
+                <p> 
+                  Denominada la madre de la ingeniería ambiental 
+                  por sus estudios sobre la calidad de las aguas en Massachusetts 
+                  en 1870 desarrollando métodos que se utilizan aún en la actualidad.
+                </p>
+            </article>
+
+            <article id="s4_pm" class = "oculto">
+                <h3> Dorothy Vaughan 1910-2008</h3>
+                <p>Trabajó en la agencia que precedió a la NASA.
+                  En 1949 se hizo cargo de la dirección de la West Area Computers, 
+                  un equipo de trabajo compuesto exclusivamente por mujeres 
+                  afroamericanas con formación matemática.
+                </p>
+            </article>
+
+            
+
+            
+        </div>    
+        <div id="seccion4_izquierda" class="seccion_izquierda">
+            <div class="horizontal">
+                <div id="s4_o_s" class="s4_opcion" onclick="cambiart_s();"> Ciencia </div>
+                <img id="s4_img_ciencia" src="./imagenes/i2 (1).png">
+                <img id="s4_img_tecnología"src="./imagenes/i3 (1).png">
+                <div id="s4_o_t" class="s4_opcion" onclick="cambiart_t();"> Tecnología </div>
+            </div>
+            <div class="horizontal">
+                <div id="s4_o_e" class="s4_opcion" onclick="cambiart_e();"> Ingeniería </div>
+                <img src="./imagenes/i4 (1).png">
+                <img src="./imagenes/i1 (1).png">
+                <div id="s4_o_m" class="s4_opcion" onclick="cambiart_m();"> Matemáticas </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function cambiart_s(){
+            document.getElementById("s4_p1").style.display = "none";
+            document.getElementById("s4_ps").style.display = "block";
+            document.getElementById("s4_pt").style.display = "none";
+            document.getElementById("s4_pe").style.display = "none";
+            document.getElementById("s4_pm").style.display = "none";
+            document.getElementById("s4_img_ciencia").style.width = "300px";
+
+
+        }
+        function cambiart_t(){
+            document.getElementById("s4_p1").style.display = "none";
+            document.getElementById("s4_ps").style.display = "none";
+            document.getElementById("s4_pt").style.display = "block";
+            document.getElementById("s4_pe").style.display = "none";
+            document.getElementById("s4_pm").style.display = "none";
+        }
+
+        function cambiart_m(){
+            document.getElementById("s4_p1").style.display = "none";
+            document.getElementById("s4_ps").style.display = "none";
+            document.getElementById("s4_pt").style.display = "none";
+            document.getElementById("s4_pe").style.display = "none";
+            document.getElementById("s4_pm").style.display = "block";
+        }
+        function cambiart_e(){
+            document.getElementById("s4_p1").style.display = "none";
+            document.getElementById("s4_ps").style.display = "none";
+            document.getElementById("s4_pt").style.display = "none";
+            document.getElementById("s4_pe").style.display = "block";
+            document.getElementById("s4_pm").style.display = "none";
+        }
+
+        
+    </script>
+
+
+    
+
+  </body>
+</html>
+
+
+
+
+  
+
+
+
