@@ -31,9 +31,9 @@
         <div class="imagenes" href="#" onmouseover="cambiar3();" onmouseout="volver();"><strong>E</strong></div>
         <div class="imagenes" href="#" onmouseover="cambiar4();" onmouseout="volver();"><strong>M</strong></div>
         </div>
-        <img src="./imagenes/niña_morada.png" id="matrix">
-        <img src="./imagenes/porcentajeniñas.png" id="matrix2">
-        <div class="imagenes2" href="#" onmouseover="cambiar2a();" onmouseout="volver2a();"><strong>aca</strong></div>
+        <img src="./imagenes/stem.png" id="matrix">
+        <div class="imagenes2" href="#" onmouseover="cambiar2a();" onmouseout="volver();"><strong>¿Quíeres saber el porcentaje de mujeres en STEM?:</strong><br id="mouse">Pasa el mouse por aca</div>
+        <img src="./imagenes/Dibujosstem-6.jpg" id="matrix2">
     </div>
 
     <div class="seccion_derecha">
@@ -74,6 +74,9 @@
             presente en la mayoría de las areas.
             (Chile estudia).
         </p>
+        <p id="s1_p_porcent" class="s1_texto">
+            Según la unesco el 35% de las personas matriculadas en carreras STEM corresponde a mujeres.
+        </p>
         </div>
         
     </div>
@@ -81,39 +84,42 @@
 
     <script type='text/javascript'>
         function cambiar1(){
-            document.getElementById('matrix').src="./imagenes/ciencia.png";
+            document.getElementById('matrix').src="./imagenes/Dibujosstem-1.png";
             document.getElementById('s1_p_stem').style.display = "none";
             document.getElementById('s1_p_s').style.display = "block";
         }
         function volver(){
-            document.getElementById('matrix').src="./imagenes/niña_morada.png";
+            document.getElementById('matrix').src="./imagenes/stem.png";
             document.getElementById('s1_p_stem').style.display = "block";
             document.getElementById('s1_p_s').style.display = "none";
             document.getElementById('s1_p_t').style.display = "none";
             document.getElementById('s1_p_e').style.display = "none";
             document.getElementById('s1_p_m').style.display = "none";
+            document.getElementById('s1_p_porcent').style.display = "none";
         }
         function cambiar2(){
-            document.getElementById('matrix').src="./imagenes/tecnologia.png";
+            document.getElementById('matrix').src="./imagenes/Dibujosstem-2.png";
             document.getElementById('s1_p_stem').style.display = "none";
             document.getElementById('s1_p_t').style.display = "block";
         }
         function cambiar3(){
-            document.getElementById('matrix').src="./imagenes/ingenieria.png";
+            document.getElementById('matrix').src="./imagenes/Dibujosstem-3.png";
             document.getElementById('s1_p_stem').style.display = "none";
             document.getElementById('s1_p_e').style.display = "block";
 
         }
         function cambiar4(){
-            document.getElementById('matrix').src="./imagenes/matematica.png";
+            document.getElementById('matrix').src="./imagenes/Dibujosstem-4.png";
             document.getElementById('s1_p_stem').style.display = "none";
             document.getElementById('s1_p_m').style.display = "block";
         }
         function cambiar2a(){
-            document.getElementById('matrix2').src="./imagenes/porcentajeniñas2.png";
+            document.getElementById('matrix2').src="./imagenes/Dibujosstem-6.jpg";
+            document.getElementById('s1_p_stem').style.display = "none";
+            document.getElementById('s1_p_porcent').style.display = "block";
         }
         function volver2a(){
-            document.getElementById('matrix2').src="./imagenes/porcentajeniñas.png";
+            document.getElementById('matrix2').src="./imagenes/Dibujosstem-6.jpg";
         }
 
     </script>

@@ -88,7 +88,7 @@ article{
 }
 
 .seccion_derecha{
-  background: #ede9f0;
+  background: #7698b3;
   position: absolute;
   width: 30%;
   right: 0%;
@@ -102,6 +102,7 @@ article{
   flex-direction: column;
   min-height: 600px;
   box-shadow: 6px 7px 7px #242200;
+  border-radius: 100px;
 }
 
 #seccion2_izquierda{
@@ -173,8 +174,10 @@ article{
   font-size: 50px;
   font-weight: 500px;
   font-display: bold;
-  padding-left: 50px;
+  padding-left: 10px;
   padding-right: 50px;
+  width: 10px;
+  font-style: open ;
 }
 
 .imagenes2{
@@ -182,11 +185,11 @@ article{
 }
 
 #matrix{
-  width:  600px;
+  width:  400px;
 }
 
 #matrix2{
-  width:  400px;
+  width:  600px;
 }
 
 .s1_texto{
@@ -208,6 +211,9 @@ article{
   margin-left: 80px;
   margin-right: 0px;
   position:absolute; 
+}
+#mouse{
+  margin-left: 700px;
 }
 
 
