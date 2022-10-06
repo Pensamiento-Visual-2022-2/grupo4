@@ -7,9 +7,6 @@
     <script src="text.js"></script>
   </head>
   <body>
-    <button id="Matemática"></button>
-
-    <script src="text.js"></script>
     <div>
         <header> <h1> ¿Yo en STEM? </h1> </header>
     </div>
@@ -24,63 +21,78 @@
     </nav>
     <div class="clearfix"></div>
 
-    <div class="seccion_izquierda">
+    <section id="seccion_1">
+
+    <div id="seccion1_izquierda" class="seccion_izquierda">
         <div class="horizontal">
-        <div class="imagenes" href="#" onmouseover="cambiar1();" onmouseout="volver();"><strong>S</strong></div>
-        <div class="imagenes"  href="#" onmouseover="cambiar2();" onmouseout="volver();"><strong>T</strong></div>
-        <div class="imagenes" href="#" onmouseover="cambiar3();" onmouseout="volver();"><strong>E</strong></div>
-        <div class="imagenes" href="#" onmouseover="cambiar4();" onmouseout="volver();"><strong>M</strong></div>
+            <div class="imagenes" href="#" onmouseover="cambiar1();" onmouseout="volver();"><strong>S</strong></div>
+            <div class="imagenes"  href="#" onmouseover="cambiar2();" onmouseout="volver();"><strong>T</strong></div>
+            <div class="imagenes" href="#" onmouseover="cambiar3();" onmouseout="volver();"><strong>E</strong></div>
+            <div class="imagenes" href="#" onmouseover="cambiar4();" onmouseout="volver();"><strong>M</strong></div>
         </div>
         <img src="./imagenes/stem.png" id="matrix">
-        <div class="imagenes2" href="#" onmouseover="cambiar2a();" onmouseout="volver();"><strong>¿Quíeres saber el porcentaje de mujeres en STEM?:</strong><br id="mouse">Pasa el mouse por aca</div>
-        <img src="./imagenes/Dibujosstem-6.jpg" id="matrix2">
+        <div class="imagenes2" href="#" onmouseover="cambiar2a();" onmouseout="volver();"><br id="mouse">
+            <strong>En la academia...</strong>
+        </div>
+        <div onmouseover="cambiar2a();" onmouseout="volver();"> <img src="./imagenes/Dibujosstem-6.jpg" id="matrix2"> </div>  
+        
     </div>
 
-    <div class="seccion_derecha">
-        <div class="centrar_texto">
-        <h2> ¿Qué es el área STEM? </h2>
-        <div id="s1_p_stem" class="s1_texto">
+    <div id="seccion1_derecha" class="seccion_derecha">
+        <article  id="s1_p_stem">
+            <h2> ¿Qué es el área STEM? </h2>
             <p> El trabajo en STEM puede contribuir al <strong>desarrollo sostenible</strong>, 
               la mejora de las vidas de las personas la promoción de la prosperidad, 
               sin dejar de proteger el planeta (ONU mujeres). </p> 
             <p> Y aun así hay una mayor cantidad de hombres que de mujeres en el rubro.</p>
             <p>Entonces, ¿Qué estas esperando?</p>
-        </div>
-        <p id="s1_p_s" class="s1_texto">
-            Algunos logros de la ciencia:
-            Nos permite vivir más tiempo y mejor
-            Cuida de nuestra salud, 
-            Nos ayuda a conseguir agua
-            suministra energía y nos hace la vida más agradable.
-            La ciencia alimenta nuestro espíritu. (Unesco)
-        </p>
-        <p id="s1_p_t" class="s1_texto">
-            Las carreras de tecnología le dan énfasis a la práctica y 
-            la investigación de acuerdo a los dinámicos avances tecnológicos. 
-            Se vale de materiales, herramientas y procesos para resolver 
-            problemas, de esta manera satisface las necesidades de la sociedad 
-            y el medio ambiente. (chile estudia)
-        </p>
-        <p id="s1_p_e" class="s1_texto">
-            La ingeniería tiene el propósito de :desarrollar, inventar y mejorar 
-            las herramientas y técnicas para la resolución de problemas de todo tipo.
-            Aplica principios científicos para diseñar y construir objetos de gran 
-            utilidad en la sociedad (Chile estudia)
-        </p>
-        <p id="s1_p_m" class="s1_texto">
-            Las matemáticas son necesarias para todo lo que engloba el campo 
-            de las ciencias exactas . Además se necesitan para analizar datos, 
-            solucionar problemas, establecer conexiones y más por lo que están 
-            presente en la mayoría de las areas.
-            (Chile estudia).
-        </p>
-        <p id="s1_p_porcent" class="s1_texto">
-            Según la unesco el 35% de las personas matriculadas en carreras STEM corresponde a mujeres.
-        </p>
-        </div>
+        </article>
+
+        <article id="s1_p_s" class="oculto">
+            <h3> Ciencia </h3>
+            <p> Algunos logros de la ciencia:
+                Nos permite vivir más tiempo y mejor
+                Cuida de nuestra salud, 
+                Nos ayuda a conseguir agua
+                suministra energía y nos hace la vida más agradable.
+                La ciencia alimenta nuestro espíritu. (Unesco)
+            </p>
+        </article>
+        <article id="s1_p_t" class="oculto">
+            <h3> Tecnología </h3>
+            <p> Las carreras de tecnología le dan énfasis a la práctica y 
+                la investigación de acuerdo a los dinámicos avances tecnológicos. 
+                Se vale de materiales, herramientas y procesos para resolver 
+                problemas, de esta manera satisface las necesidades de la sociedad 
+                y el medio ambiente. (chile estudia)
+            </p>
+        </article>  
+        <article id="s1_p_e" class="oculto">
+            <h3> Ingeniería </h3>
+            <p> La ingeniería tiene el propósito de :desarrollar, inventar y mejorar 
+                las herramientas y técnicas para la resolución de problemas de todo tipo.
+                Aplica principios científicos para diseñar y construir objetos de gran 
+                utilidad en la sociedad (Chile estudia)
+            </p>
+        </article>
+
+        <article id="s1_p_m" class="oculto">
+            <h3> Matemáticas </h3>
+            <p> Las matemáticas son necesarias para todo lo que engloba el campo 
+                de las ciencias exactas . Además se necesitan para analizar datos, 
+                solucionar problemas, establecer conexiones y más por lo que están 
+                presente en la mayoría de las areas.
+                (Chile estudia).
+            </p>
+        </article>
+        <article id="s1_p_porcent" class="oculto">
+            <p> Según la unesco el 35% de las personas matriculadas en carreras 
+                STEM corresponde a mujeres. </p>
+        </article>
+    </div>
         
     </div>
-    
+    </section>
 
     <script type='text/javascript'>
         function cambiar1(){
@@ -124,7 +136,8 @@
 
     </script>
     
-    <div id="seccion2_izquierda" class="seccion_izquierda">
+    <section id="seccion_2">
+        <h4 class="titulo"> Nuestra participación académica a lo largo de la historia</h4>
         <div class="horizontal">
             <button id="p1_s2" onclick="mostrar_periodo_1();" class="periodos_s2"> 2005-2008 </button>
             <button id="p2_s2" onclick="mostrar_periodo_2();" class="periodos_s2"> 2008-2011 </button>
@@ -145,11 +158,7 @@
             <img id="mujer_8" class="persona_m1" src="./imagenes/mujer_s2.png" alt="Prueba"/>
             <img id="mujer_9" class="persona_m2" src="./imagenes/mujer_s2.png" alt="Prueba"/>
             <img id="mujer_10" class="persona_m1" src="./imagenes/mujer_s2.png" alt="Prueba"/>
-        </div>
-        
-    </div>
-    <div id="seccion2_derecha" class="seccion_derecha"></div>
-
+        </div>   
     </section>
 
     <script type='text/javascript'>
@@ -236,13 +245,80 @@
             document.getElementById("mujer_8").src = "./imagenes/hombre_s2.png";
             document.getElementById("mujer_9").src = "./imagenes/hombre_s2.png";
             document.getElementById("mujer_10").src = "./imagenes/hombre_s2.png";
-
         }
+
+    </script>
+
+    
+    <section id="seccion_3">
+        <h4 class="titulo"> Pero aún queda camino por recorrer... </h4>
+        <div class="container">
+            <div class="color-select">
+            <div id="boton1"><p>2010</p></div>
+            <div id="boton2"><p>2011</p></div>
+            <div id="boton3"><p>2012</p></div>
+            <div id="boton4"><p>2013</p></div>
+            <div id="boton5"><p>2014</p></div>
+            <div id="boton6"><p>2015</p></div>
+            <div id="boton7"><p>2016</p></div>
+            <div id="boton8"><p>2017</p></div>
+            <div id="boton9"><p>2018</p></div>
+            <div id="boton10"><p>2019</p></div>
+        </div>
+        <div class="images">
+            <img src="./imagenes/años1.png" id="imgchange" alt=""> 
+        </div>
+    </section>
+    <script type='text/javascript'>
+        let b1Btn = document.getElementById("boton1")
+        let b2Btn = document.getElementById("boton2")
+        let b3Btn = document.getElementById("boton3")
+        let b4Btn = document.getElementById("boton4")
+        let b5Btn = document.getElementById("boton5")
+        let b6Btn = document.getElementById("boton6")
+        let b7Btn = document.getElementById("boton7")
+        let b8Btn = document.getElementById("boton8")
+        let b9Btn = document.getElementById("boton9")
+        let b10Btn = document.getElementById("boton10")
+        let imgchange = document.getElementById("imgchange")
+        b10Btn.onclick = function () {
+            imgchange.src = "./imagenes/años1.png"
+        }
+        b9Btn.onclick = function () {
+            imgchange.src = "./imagenes/años2.png"
+        }
+        b8Btn.onclick = function () {
+            imgchange.src = "./imagenes/años3.png"
+        }
+        b7Btn.onclick = function () {
+            imgchange.src = "./imagenes/años4.png"
+        }
+        b6Btn.onclick = function () {
+            imgchange.src = "./imagenes/años5.png"
+        }
+        b5Btn.onclick = function () {
+            imgchange.src = "./imagenes/años6.png"
+        }
+        b4Btn.onclick = function () {
+            imgchange.src = "./imagenes/años7.png"
+        }
+        b3Btn.onclick = function () {
+            imgchange.src = "./imagenes/años8.png"
+        }
+        b2Btn.onclick = function () {
+            imgchange.src = "./imagenes/años9.png"
+        }
+        b1Btn.onclick = function () {
+            imgchange.src = "./imagenes/años10.png"
+        }
+        $(document).ready(function(){
+            ("#subtitle").mouseenter(function(){$(this).stop().animate({"left":"0px"},"fast");
+        })});
     </script>
 
     <section id="seccion_4">
         <div id="seccion4_derecha" class="seccion_derecha">
-            <div id="s4_p1" ><h2> Mujeres según área. ¡Inspirate! </h2></div>
+            <div id="s4_p1" ><p> ¡Inspirate! </p></div>
             <article id="s4_ps" class = "oculto">
                 <h3> Marie Curie 1867-1934</h3>
                 <p> Física y química cuya investigación sobre radioactividad 
@@ -279,12 +355,10 @@
                   afroamericanas con formación matemática.
                 </p>
             </article>
-
-            
-
-            
+        
         </div>    
         <div id="seccion4_izquierda" class="seccion_izquierda">
+            <h4 class="titulo_2"> Mujeres según área</h4>
             <div class="horizontal">
                 <div id="s4_o_s" class="s4_opcion" onclick="cambiart_s();"> Ciencia </div>
                 <img id="s4_img_ciencia" src="./imagenes/i2 (1).png">
@@ -298,6 +372,7 @@
                 <div id="s4_o_m" class="s4_opcion" onclick="cambiart_m();"> Matemáticas </div>
             </div>
         </div>
+
     </section>
     <script>
         function cambiart_s(){
@@ -306,7 +381,10 @@
             document.getElementById("s4_pt").style.display = "none";
             document.getElementById("s4_pe").style.display = "none";
             document.getElementById("s4_pm").style.display = "none";
-            document.getElementById("s4_img_ciencia").style.width = "300px";
+            document.getElementById("s4_o_s").style.background = "#131200";
+            document.getElementById("s4_o_t").style.background = "#572364";
+            document.getElementById("s4_o_e").style.background = "#572364";
+            document.getElementById("s4_o_m").style.background = "#572364";
 
 
         }
@@ -316,6 +394,22 @@
             document.getElementById("s4_pt").style.display = "block";
             document.getElementById("s4_pe").style.display = "none";
             document.getElementById("s4_pm").style.display = "none";
+            document.getElementById("s4_o_s").style.background = "#572364";
+            document.getElementById("s4_o_t").style.background = "#131200";
+            document.getElementById("s4_o_e").style.background = "#572364";
+            document.getElementById("s4_o_m").style.background = "#572364";
+        }
+
+        function cambiart_e(){
+            document.getElementById("s4_p1").style.display = "none";
+            document.getElementById("s4_ps").style.display = "none";
+            document.getElementById("s4_pt").style.display = "none";
+            document.getElementById("s4_pe").style.display = "block";
+            document.getElementById("s4_pm").style.display = "none";
+            document.getElementById("s4_o_s").style.background = "#572364";
+            document.getElementById("s4_o_t").style.background = "#572364";
+            document.getElementById("s4_o_e").style.background = "#131200";
+            document.getElementById("s4_o_m").style.background = "#572364";
         }
 
         function cambiart_m(){
@@ -324,18 +418,45 @@
             document.getElementById("s4_pt").style.display = "none";
             document.getElementById("s4_pe").style.display = "none";
             document.getElementById("s4_pm").style.display = "block";
-        }
-        function cambiart_e(){
-            document.getElementById("s4_p1").style.display = "none";
-            document.getElementById("s4_ps").style.display = "none";
-            document.getElementById("s4_pt").style.display = "none";
-            document.getElementById("s4_pe").style.display = "block";
-            document.getElementById("s4_pm").style.display = "none";
+            document.getElementById("s4_o_s").style.background = "#572364";
+            document.getElementById("s4_o_t").style.background = "#572364";
+            document.getElementById("s4_o_e").style.background = "#572364";
+            document.getElementById("s4_o_m").style.background = "#131200";
         }
 
-        
     </script>
+    <section id="seccion_5">
+        <h3> Otras plataformas que podrían interesarte </h3>
+        <div class="horizontal">
+            <div class="referencias">
+                <img class="logo" src="./imagenes/pontifcia_s5.png" alt="Logo Pontificia Universidad Católica de Chile"/>
+                <a href="https://www.ing.uc.cl/vida-universitaria/mujeres-ingenieria-uc/ " title="enlace">
+                    UC abre nueva vía de admisión para mujeres científicas
+                </a>
+            </div>
+            <div class="referencias">
+                <img class="logo" src="./imagenes/pontifcia_s5.png" alt="Logo Pontificia Universidad Católica de Chile"/>
+                <a href="https://www.uc.cl/noticias/uc-abre-nueva-via-de-admision-para-mujeres-cientificas/ " title="enlace">
+                    Mujeres ingeniería UC
+                </a>
+            </div> 
+            <div class="referencias">
+                <img class="logo" src="./imagenes/universidad_de_chile_logo_s5.jpg" alt="Logo Universidad de Chile"/>
+                <a href="https://www.uchile.cl/presentacion/asuntos-academicos/pregrado/admision-especial/equidad-de-genero " title="enlace">
+                    Ingreso Prioritario de Equidad de Género
+                </a>
+            </div>
+            <div class="referencias">
+                <img class="logo" src="./imagenes/universidad_adolfo_ibañez_logo_s5.png" alt="Logo Universidad Adolfo Ibañez"/>
+                <a href="https://admision.uai.cl/2022/08/13/mujeres-en-stem-uai/" title="enlace">
+                    Mujeres en STEM UAI
+                </a>
+            </div>
+    </div>
 
+    </section>
+
+    <section id="pie"> </section>
 
     
 

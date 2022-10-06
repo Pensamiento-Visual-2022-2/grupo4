@@ -9,19 +9,42 @@ header{
   background: #572364;
   height: 100px;
   margin: 10px;
+  padding: 10px;
+  margin-top: 0;
+  line-height: 10px;
   text-align: center;
-  line-height: 100px;
-  color: white
-}
-
-h2{
-  text-align: center;
-  color: black
+  align-items: center;
+  color: white;
   
 }
 
-h3{
+.titulo{
+  font-size: 40px;
+  color:#572364;
   text-align: center;
+  padding: 10px;
+  padding-top: 50px;
+  font-display: bold;
+}
+
+.titulo_2{
+  font-size: 70px;
+  color:#7698b3;
+  padding-top: 20px;
+  font-display: bold;
+}
+
+
+h1{
+  font-size: 70px;
+}
+h2{
+  text-align: left;
+  color: black
+}
+
+h3{
+  text-align: left;
   font-size: 25px;
 }
 
@@ -64,19 +87,15 @@ img{
 }
 
 article{
-  padding: 20%;
+  padding: 15%;
 }
-
-#section{
-  position: relative;
-}
-
 
 .seccion_izquierda{
   position:absolute;
-  width: 60%;
-  padding: 30px;
-  margin-left: 35px;
+  width: 70%;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
   margin-top: 35px;
   margin-bottom: 35px;
   display: flex;
@@ -88,11 +107,12 @@ article{
 }
 
 .seccion_derecha{
-  background: #7698b3;
+  /* background: #7698b3; */
+  background: white;
   position: absolute;
-  width: 30%;
+  width: 25%;
   right: 0%;
-  margin-right: 35px;
+  margin-right: 50px;
   margin-top: 35px;
   margin-bottom: 35px;
   padding: 20px;
@@ -101,83 +121,49 @@ article{
   justify-content: center;
   flex-direction: column;
   min-height: 600px;
-  box-shadow: 6px 7px 7px #242200;
-  border-radius: 100px;
+  box-shadow: 3px 5px 5px #131200;
+  border-radius: 50px;
 }
 
-#seccion2_izquierda{
-  position:absolute;
-  top: 1000px;
-  min-height: 400px;
-}
-#seccion2_derecha{
-  position:absolute;
-  top: 1000px;
-  min-height: 400px;
+.horizontal{
+  display: flex;
 }
 
-#seccion4_izquierda{
-  position: absolute;
-  top: 1500px;
+/* https://es.stackoverflow.com/questions/55601/texto-flotante-al-pasar-el-cursor-por-sobre-una-imagen */
+
+/* Invisible texto */
+figcaption {
+  display:none; 
+  transition: all .5s;
+}
+/* Visible texto */
+figure:hover > figcaption {
+  display:none;
+  transition: all .5s;
 }
 
-#seccion4_derecha{
-  position: absolute;
-  top: 1500px;
-  min-height: 600px;
-}
-
-.centrar_texto {
-  margin: 20%;
-}
-
-.clearfix{
-  clear: both;
-}
-
-.otra_seccion{
-  position: relative;
-}
-
-/*--------------------------- Última Parte ---------------------------*/
-.referencias{
-  float: left;
-  font-size: 20px;
-  padding: 10px; 
-  margin: 10px; 
-  width: 300px; 
-  height: 80px;
-}
-
-.logo{
-  margin-right: 10px;
-  float: left;
-  width: 100px; 
-}
-
-#pie{
-  background-color: #b194b8;
-  height: 400px;
-  width: 100%;
-  margin: 10px;
-}
 
 /*--------------------------- Sección 1 ---------------------------*/
-.horizonal{
-  justify-content: space-between;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#seccion1_izquierda{
+  min-height: 700px;
 }
 
+#seccion1_derecha{
+  position: absolute;
+  top: 240px;
+  min-height: 680px;
+}
+
+
 .imagenes{
-  font-size: 50px;
-  font-weight: 500px;
+  font-size: 115px;
+  font-weight: 420px;
   font-display: bold;
   padding-left: 10px;
-  padding-right: 50px;
+  padding-right: 150px;
   width: 10px;
   font-style: open ;
+  color:#7698b3;
 }
 
 .imagenes2{
@@ -185,63 +171,36 @@ article{
 }
 
 #matrix{
-  width:  400px;
+  width:  350px;
 }
 
 #matrix2{
   width:  600px;
 }
 
-.s1_texto{
-  display: none;
-}
-
-#s1_p_stem{
-  display:block;
-}
-
-#s1_texto p{
-  font-size: 18px;
-  font-weight: 300px;
-  margin-left: 50px;
-}
-
-#s1_imagenes{
-  width:  600px;
-  margin-left: 80px;
-  margin-right: 0px;
-  position:absolute; 
-}
 #mouse{
   margin-left: 700px;
 }
 
 
 /*--------------------------- Sección 2 ---------------------------*/
-.horizontal{
+#seccion_2{
+  position:absolute;
+  width: 80%;
+  padding: 10%;
+  top: 900px;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.periodos_s2{
-  padding-right: 10px;
-}
-
-.vertical{
-  float: left;
-}
-
-#grafico_1{
-  padding: 10px; 
-  margin: 10px;  
-  width: 420px; 
-}
 
 #mujer_1{
   height: 120px;
   width: 45px;
   float: left;
   padding-top: 50px;
-  padding-left: 50px;
 } 
 
 .persona_m1{
@@ -266,35 +225,20 @@ article{
   display: none;
 }
 
-#libros_s{
-  height: 70px;
-  padding-top: 65px;
-  padding-left: 180px;
-  padding-right: 200px;
-}
 
-#libros_t{
-  height: 70px;
-  padding-top: 24px;
-  padding-left: 180px;
-  padding-right: 200px;
-}
 
-#libros_e{
-  height: 70px;
-  padding-top: 24px;
-  padding-left: 180px;
-  padding-right: 200px;
+/*--------------------------- Sección 3 ---------------------------*/
+#seccion_3{
+  position:absolute;
+  width: 80%;
+  padding: 10%;
+  top: 1500px;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-
-#libros_m{
-  height: 70px;
-  padding-top: 24px;
-  padding-left: 685px;
-  padding-right: 200px;
-}
-
-/*--------------------------- Sección 1 y 3 ---------------------------*/
 
 .color-select{
   width: 1400px;
@@ -309,8 +253,6 @@ article{
 
 .images img{
   width:  1200px;
-  float: left;
-  margin-left: 100px;
 }
 
 .color-select div{
@@ -349,6 +291,24 @@ article{
 
 
 /*--------------------------- Sección 4 ---------------------------*/
+.columna {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns: https://www.w3schools.com/howto/howto_css_three_columns.asp*/
+
+#seccion4_izquierda{
+  position: absolute;
+  top: 2400px;
+}
+
+#seccion4_derecha{
+  position: absolute;
+  top: 2520px;
+  min-height: 750px;
+}
+
 #seccion4_izquierda img{
   width: 250px;
   padding: 10px;
@@ -363,121 +323,49 @@ article{
   margin-top: 120px;
   min-width: 80px;
   text-align: center;
+  border-radius: 10px;
 }
 
 .oculto{
   display: none;
 }
 
-.tooltip:hover.tooltiptext{
-  visibility: visible;
-}
-
-.contenedor{
+/*--------------------------- Sección 5 ---------------------------*/
+#seccion_5{
+  position:absolute;
+  width: 80%;
+  padding: 10%;
+  top: 3210px;
+  min-height: 400px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  float:left;
-} 
-
-.tooltip{
-  width: 100px;
-  position: relative;
-  padding-left: 50px;
-  border: 1px solid #b194b8;
-}
-.tooltip.tooltiptext{
-  visibility: hidden;
-  width: 200px;
-  background-color: aqua;
-  color: black;
-  text-align: start;
-  border-radius: 6px;
-  padding: 15px;
-  position: absolute;
-  z-index: 1;
-  top: -5px;
-  left: 10%;
 }
 
-.tooltip:hover.tooltiptext{
-  visibility: visible;
-}
 
-h3{
-  text-align: center;
-  font-size: 25px;
-}
-
-.posicion{
+.referencias{
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.contenedor{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  float:left;
-  padding-left: 40px;
-  padding-right: 50px;
-}
-
-.wrap{
-  width: 100px;
-  max-width: 90%;
-  margin: 30px auto;
-}
-
-ul.tabs{
-  width: 100%;
-  background: #b194b8;
-  list-style: none;
-}
-
-ul.tabs li a{
-  color:azure;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
-  text-align: center;
+  padding: 10px; 
+  margin: 10px; 
+  width: 300px; 
+  height: 80px;
 }
 
-.secciones{
-  width: 100%;
-  background: #b194b8;
-  font-size: 30px;
+.logo{
+  margin-right: 10px;
+  float: left;
+  width: 100px; 
 }
 
-.secciones article{
+#pie{
+  position:absolute;
   padding: 10px;
-  font-size: 10px;
-}
-
-.secciones article p{
-  text-align: justify;
-}
-
-.active{
-  background:#b194b8;
-}
-
-ul.tabs li a .tab-text{
-  margin-right: 70px;
-}
-h3{
-  text-align: center;
-  font-size: 15px;
-}
-
-
-
-.clearfix{
-  clear: both;
+  margin: 10px;
+  top: 3740px;
+  background: #572364;
+  height: 100px;
+  width: 97%;
+  
 }
