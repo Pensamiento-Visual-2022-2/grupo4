@@ -33,6 +33,13 @@ header{
   padding-top: 20px;
   font-display: bold;
 }
+.titulo3{
+  font-size: 40px;
+  color:#572364;
+  text-align: center;
+  font-display: bold;
+  padding-top: 300px;
+}
 
 
 h1{
@@ -251,13 +258,9 @@ figure:hover > figcaption {
   margin-left: 20px;
 }
 
-.images img{
-  width:  1200px;
-}
-
 .color-select div{
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   background: #B194B8;
   border-radius: 50%;
   margin-right: 30px;
@@ -265,7 +268,39 @@ figure:hover > figcaption {
 }
 
 .color-select p{
-  margin-top: 1px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.images {
+  float: none;
+  width: 60%;
+  padding: 10px;
+  margin-left: 180px;
+}
+
+
+.images img {
+  opacity: 0.9;
+  cursor: pointer;
+  margin-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+#seccion3_izquierda{
+  position: absolute;
+  top: 20px;
+}
+
+#seccion3_derecha{
+  position: absolute;
+  top: 20px;
+  min-height: 350px;
+  margin-top: 250px;
+}
+.texto3{
+  float: right;
 }
 
 .tooltip{
@@ -369,3 +404,38 @@ figure:hover > figcaption {
   width: 97%;
   
 }
+
+/*--------------------------- barra--------------------------*/
+#navbar {
+  background-color: black; /* Black background color */
+  background: #572364;
+  position: fixed; /* Make it stick/fixed */
+  top: -50px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  z-index: 100;
+}
+#navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+
+
+#navbar li:hover {
+  background-color: #B194B8;
+  color: black;
+}
+
+.textoli{
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+/*--------------------------- barra--------------------------*/

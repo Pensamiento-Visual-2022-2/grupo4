@@ -10,15 +10,25 @@
     <div>
         <header> <h1> ¿Yo en STEM? </h1> </header>
     </div>
-    <nav>
-        <ul>
-            <li> <a href="#seccion_1"> Contexto  </a> </li>
-            <li> <a href="#seccion_2"> Análisis Histórico  </a> </li>
-            <li> <a href="#seccion_3"> Desigualdad  </a> </li>
-            <li> <a href="#seccion_4"> Representantes  </a> </li>
-            <li> <a href="#seccion_5"> Referencias  </a> </li>
-        </ul>
-    </nav>
+    <div id="navbar">
+        <li class="textoli"> <a href="#seccion_1"> Contexto  </a> </li>
+        <li class="textoli"> <a href="#seccion_2"> Análisis Histórico  </a> </li>
+        <li class="textoli">  <a href="#seccion_3"> Desigualdad  </a> </li>
+        <li class="textoli"> <a href="#seccion_4"> Representantes  </a> </li>
+        <li class="textoli"> <a href="#seccion_5"> Referencias  </a> </li>
+    </div>
+    
+    <script type='text/javascript'> 
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-50px";
+        }
+    }
+    </script>
+
     <div class="clearfix"></div>
 
     <section id="seccion_1">
@@ -158,7 +168,8 @@
             <img id="mujer_8" class="persona_m1" src="./imagenes/mujer_s2.png" alt="Prueba"/>
             <img id="mujer_9" class="persona_m2" src="./imagenes/mujer_s2.png" alt="Prueba"/>
             <img id="mujer_10" class="persona_m1" src="./imagenes/mujer_s2.png" alt="Prueba"/>
-        </div>   
+        </div>  
+        <h4 class="titulo3"> Pero aún queda camino por recorrer... </h4> 
     </section>
 
     <script type='text/javascript'>
@@ -251,23 +262,31 @@
 
     
     <section id="seccion_3">
-        <h4 class="titulo"> Pero aún queda camino por recorrer... </h4>
-        <div class="container">
-            <div class="color-select">
-            <div id="boton1"><p>2010</p></div>
-            <div id="boton2"><p>2011</p></div>
-            <div id="boton3"><p>2012</p></div>
-            <div id="boton4"><p>2013</p></div>
-            <div id="boton5"><p>2014</p></div>
-            <div id="boton6"><p>2015</p></div>
-            <div id="boton7"><p>2016</p></div>
-            <div id="boton8"><p>2017</p></div>
-            <div id="boton9"><p>2018</p></div>
-            <div id="boton10"><p>2019</p></div>
+        <div id="seccion3_izquierda" class="seccion_izquierda">
+            <div class="container">
+                <div class="color-select">
+                    <div id="boton1"><p>2010</p></div>
+                    <div id="boton2"><p>2011</p></div>
+                    <div id="boton3"><p>2012</p></div>
+                    <div id="boton4"><p>2013</p></div>
+                    <div id="boton5"><p>2014</p></div>
+                    <div id="boton6"><p>2015</p></div>
+                    <div id="boton7"><p>2016</p></div>
+                    <div id="boton8"><p>2017</p></div>
+                    <div id="boton9"><p>2018</p></div>
+                    <div id="boton10"><p>2019</p></div>
+                    <div id="boton11"><p>2020</p></div>
+                </div>
+                <div class="images">
+                    <img src="./imagenes/monedas1.jpg" id="imgchange" alt=""> 
+                </div>
+            </div>
         </div>
-        <div class="images">
-            <img src="./imagenes/años1.png" id="imgchange" alt=""> 
+        <div id="seccion3_derecha" class="seccion_derecha">
+            <p>Aun existe una diferencia importante ciertos temas. Uno de ellos es la <strong>desigualdad de sueldos.</strong></p>
+            <p> A la izquierda se presentan los  datos de los <strong>ingresos medios mensuales </strong>  de las personas ocupadas por sexo  y exponiendo la <strong>diferencia </strong> que existe en el ingreso medio de las mujeres ocupadas con respecto al de los hombres ocupados.</p>
         </div>
+    
     </section>
     <script type='text/javascript'>
         let b1Btn = document.getElementById("boton1")
@@ -280,36 +299,40 @@
         let b8Btn = document.getElementById("boton8")
         let b9Btn = document.getElementById("boton9")
         let b10Btn = document.getElementById("boton10")
+        let b11Btn = document.getElementById("boton11")
         let imgchange = document.getElementById("imgchange")
+        b11Btn.onclick = function () {
+            imgchange.src = "./imagenes/monedas2020.jpg"
+        }
         b10Btn.onclick = function () {
-            imgchange.src = "./imagenes/años1.png"
+            imgchange.src = "./imagenes/monedas2019.jpg"
         }
         b9Btn.onclick = function () {
-            imgchange.src = "./imagenes/años2.png"
+            imgchange.src = "./imagenes/monedas2018.jpg"
         }
         b8Btn.onclick = function () {
-            imgchange.src = "./imagenes/años3.png"
+            imgchange.src = "./imagenes/monedas2017.jpg"
         }
         b7Btn.onclick = function () {
-            imgchange.src = "./imagenes/años4.png"
+            imgchange.src = "./imagenes/monedas2016.jpg"
         }
         b6Btn.onclick = function () {
-            imgchange.src = "./imagenes/años5.png"
+            imgchange.src = "./imagenes/monedas2015.jpg"
         }
         b5Btn.onclick = function () {
-            imgchange.src = "./imagenes/años6.png"
+            imgchange.src = "./imagenes/monedas2014.jpg"
         }
         b4Btn.onclick = function () {
-            imgchange.src = "./imagenes/años7.png"
+            imgchange.src = "./imagenes/monedas2013.jpg"
         }
         b3Btn.onclick = function () {
-            imgchange.src = "./imagenes/años8.png"
+            imgchange.src = "./imagenes/monedas2012.jpg"
         }
         b2Btn.onclick = function () {
-            imgchange.src = "./imagenes/años9.png"
+            imgchange.src = "./imagenes/monedas2011.jpg"
         }
         b1Btn.onclick = function () {
-            imgchange.src = "./imagenes/años10.png"
+            imgchange.src = "./imagenes/monedas2010.jpg"
         }
         $(document).ready(function(){
             ("#subtitle").mouseenter(function(){$(this).stop().animate({"left":"0px"},"fast");
