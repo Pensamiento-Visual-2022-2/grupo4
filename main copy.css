@@ -1,8 +1,6 @@
-/*--------------------------- Primera Parte ---------------------------*/
-
 body{
-  background: #d9d0de;
-  font-family: 'Times New Roman', Times, serif;
+  background: white;
+  font-family:'Raleway', sans-serif;
 }
 
 header{
@@ -15,7 +13,7 @@ header{
   text-align: center;
   align-items: center;
   color: white;
-  
+ 
 }
 
 .titulo{
@@ -43,7 +41,7 @@ header{
 
 
 h1{
-  font-size: 70px;
+  font-size: 75px;
 }
 h2{
   text-align: left;
@@ -55,16 +53,20 @@ h3{
   font-size: 25px;
 }
 
+h5{
+  font-size: 90px;
+}
+
 nav{
   background: #572364;
   height: 60px;
   text-align:center;
-	margin: 10px;
+  margin: 10px;
 }
 
 nav ul{
-	display: inline-block;
-	text-align: center;
+  display: inline-block;
+  text-align: center;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -77,7 +79,7 @@ nav ul li{
 }
 
 nav ul li a{
-  color: white !important;
+  color: rgb(219, 130, 186) !important;
   font-size: 15px;
   padding: 20px;
   text-decoration:none;
@@ -86,7 +88,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-	background: #131200;
+  background: #131200;
 }
 
 img{
@@ -110,12 +112,12 @@ article{
   justify-content: center;
   flex-direction: column;
   min-height: 600px;
-  
+ 
 }
 
 .seccion_derecha{
   /* background: #7698b3; */
-  background: white;
+  background:#B194B8;
   position: absolute;
   width: 25%;
   right: 0%;
@@ -140,7 +142,7 @@ article{
 
 /* Invisible texto */
 figcaption {
-  display:none; 
+  display:none;
   transition: all .5s;
 }
 /* Visible texto */
@@ -208,21 +210,21 @@ figure:hover > figcaption {
   width: 45px;
   float: left;
   padding-top: 50px;
-} 
+}
 
 .persona_m1{
   height: 120px;
   width: 45px;
   float: left;
   padding-top: 40px;
-} 
+}
 
 .persona_m2{
   height: 120px;
   width: 45px;
   float: left;
   padding-top: 50px;
-} 
+}
 
 #mujeres_logos{
   display: none;
@@ -251,7 +253,7 @@ figure:hover > figcaption {
   width: 1400px;
   height: 5px;
   background-color: #566B66 ;
-  display: flex; 
+  display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 50px;
@@ -302,28 +304,6 @@ figure:hover > figcaption {
 .texto3{
   float: right;
 }
-
-.tooltip{
-  width: 200px;
-  position: relative;
-  padding-left: 1000px;
-  border: 1px solid #b194b8;
-}
-
-.tooltip.tooltiptext{
-  visibility: hidden;
-  width: 200px;
-  background-color: aqua;
-  color: black;
-  text-align: start;
-  border-radius: 6px;
-  padding: 15px;
-  position: absolute;
-  z-index: 1;
-  top: -5px;
-  left: 105%;
-}
-
 
 /*--------------------------- Sección 4 ---------------------------*/
 .columna {
@@ -382,16 +362,16 @@ figure:hover > figcaption {
 .referencias{
   display: flex;
   font-size: 20px;
-  padding: 10px; 
-  margin: 10px; 
-  width: 300px; 
+  padding: 10px;
+  margin: 10px;
+  width: 300px;
   height: 80px;
 }
 
 .logo{
   margin-right: 10px;
   float: left;
-  width: 100px; 
+  width: 100px;
 }
 
 #pie{
@@ -402,7 +382,7 @@ figure:hover > figcaption {
   background: #572364;
   height: 100px;
   width: 97%;
-  
+ 
 }
 
 /*--------------------------- barra--------------------------*/

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>D3 Test</title>
+    <script type="text/javascript" src="d3/d3.js"></script>
+    <script type="text/javascript" src="d3/d3.min.js"></script>
+    <link href="pruebad3.css" rel="stylesheet"/>
+    <script src="pruebad3.js"></script>
+</head>
+<body>
+    <div class="bar2">
+        <svg width="500" height="50">
+            <ellipse cx="250" cy="25" rx="100" ry="25"/>
+        </svg>
+
+    </div>
+    <div class="bar"></div>
+    <script type="text/javascript">
+    var dataset = [ 5, 10, 15, 20, 25];
+    d3.select("body").selectAll("p")
+	.data(dataset)  //hay 5 valores en dataset y por eso los cuenta y hace 5 parrafos
+	.enter() //para crear nuevos elementos asociados a datos
+	.append("p")
+	.text(function(d) { return "I can count to "+d; })
+    .style("color", function(d) {
+        if (d > 15) {   //Umbral - 15
+            return "red";
+        } else {
+    	return "black";
+        }
+    });
+
+    var dataset = [ 25, 7, 5, 26, 11, 8, 25, 14, 23, 19,
+            14, 11, 22, 29, 11, 13, 12, 17, 18, 10,
+            24, 18, 25, 9, 3 ];
+    d3.select("body").selectAll("div")
+    .data(dataset)
+    .enter()
+    .append("div")
+    .attr("class", "bar")
+    .style("height", function(d) {
+    var barHeight = d * 5;  //Incrementar la escala 5 veces.
+    return barHeight + "px";
+    }); //se hace una función que varia el alto de la barra segun su valor
+    </script>
+</body>
+</html>  

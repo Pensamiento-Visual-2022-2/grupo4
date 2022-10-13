@@ -1,0 +1,18 @@
+body {
+    background-color: white;
+    color: black;
+    margin: 10px;
+    padding: 25px;
+}
+p {
+    font-size: 12px;
+    line-height: 14px;
+    color: black;
+}
+div.bar {
+	display: inline-block;
+	width: 20px;
+	height: 75px;   /* Esto se cambiará próximamente */
+	background-color: teal;
+    margin-right: 2px;
+}
