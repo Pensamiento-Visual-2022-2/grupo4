@@ -4,7 +4,6 @@
     <title> Investigación Brecha de Género Profesional en Chile </title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <link href="ale_prueba.css" rel="stylesheet"/>
-    <script src="text.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
@@ -17,53 +16,15 @@
    
     <section id="seccion_2">
         <h4 class="titulo"> Nuestra participación académica a lo largo de la historia</h4>
-        <div class="s2_niña">
-            <p id="s2_cifra_1" class="s2_cifra">1000</p>
-            <img id="muno" onclick="mostrar_periodo_1();" src="./imagenes/mujer_s2.png" alt="Prueba"/>
-            <p class="s2_periodo">2005-2006</p>
-        </div>
-        <div class="s2_niña">
-            <p id="s2_cifra_2" class="s2_cifra">2000</p>
-            <img id="mdos" onclick="mostrar_periodo_1();" src="./imagenes/mujer_s2.png" alt="Prueba"/>
-            <p class="s2_periodo">2007-2008</p>
-        </div>
-        <div class="s2_niña">
-            <p id="s2_cifra_3" class="s2_cifra">3000</p>
-            <img id="mtres" onclick="mostrar_periodo_1();" src="./imagenes/mujer_s2.png" alt="Prueba"/>
-            <p class="s2_periodo">2009-2010</p>
-        </div>
-        <div class="s2_niña">
-            <p id="s2_cifra_4" class="s2_cifra">4000</p>
-            <img id="mcuatro" onclick="mostrar_periodo_1();" src="./imagenes/mujer_s2.png" alt="Prueba"/>
-            <p class="s2_periodo">2011-2012</p>
-        </div>
-        <div class="s2_niña">
-            <p id="s2_cifra_5" class="s2_cifra">5000</p>
-            <img id="mcinco" onclick="mostrar_periodo_1();" src="./imagenes/mujer_s2.png" alt="Prueba"/>
-            <p class="s2_periodo">2013-2014</p>
-        </div>
-        <div class="s2_niña">
-            <p id="s2_cifra_6" class="s2_cifra">6000</p>
-            <img id="mseis" onclick="mostrar_periodo_1();" src="./imagenes/mujer_s2.png" alt="Prueba"/>
-            <p class="s2_periodo">2015-2016</p>
-        </div>
-        <div class="s2_niña">
-            <p id="s2_cifra_7" class="s2_cifra">7000</p>
-            <img id="msiete" onclick="mostrar_periodo_1();" src="./imagenes/mujer_s2.png" alt="Prueba"/>
-            <p class="s2_periodo">2017-2018</p>
-        </div>
-        <div class="s2_niña">
-            <p id="s2_cifra_8" class="s2_cifra">8000</p>
-            <img id="mocho" onclick="mostrar_periodo_1();" src="./imagenes/mujer_s2.png" alt="Prueba"/>
-            <p class="s2_periodo">2019-2020</p>
-        </div>
-        <div class="s2_niña">
-            <p id="s2_cifra_9" class="s2_cifra">9000</p>
-            <img id="mnuevve" onclick="mostrar_periodo_1();" src="./imagenes/mujer_s2.png" alt="Prueba"/>
-            <p class="s2_periodo">2021-2022</p>
-        </div>
-        
-
+        <img id="muno" onclick="mostrar_periodo_1();" class="periodos_s2" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+        <img id="mdos" onclick="mostrar_periodo_1();" class="periodos_s2" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+        <img id="mtres" onclick="mostrar_periodo_1();" class="periodos_s2" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+        <img id="mcuatro" onclick="mostrar_periodo_1();" class="periodos_s2" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+        <img id="mcinco" onclick="mostrar_periodo_1();" class="periodos_s2" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+        <img id="mseis" onclick="mostrar_periodo_1();" class="periodos_s2" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+        <img id="msiete" onclick="mostrar_periodo_1();" class="periodos_s2" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+        <img id="mocho" onclick="mostrar_periodo_1();" class="periodos_s2" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+        <img id="mnueve" onclick="mostrar_periodo_1();" class="periodos_s2" src="./imagenes/mujer_s2.png" alt="Prueba"/>
 
     </section>
     <script type='text/javascript'>
@@ -161,7 +122,7 @@
    let foto_7 = document.getElementById("msiete");
    let foto_8 = document.getElementById("mocho");
    let foto_9 = document.getElementById("mnueve");
-   let ponderador = 1/800
+   let ponderador = 1/250;
    
    foto_1.style.width = datos_seccion_2[0].cantidad_mujeres*ponderador + 'px';
    foto_2.style.width = datos_seccion_2[1].cantidad_mujeres*ponderador + 'px';
@@ -174,7 +135,7 @@
    foto_9.style.width = datos_seccion_2[8].cantidad_mujeres*ponderador + 'px';
 
 
-    </script>
+   </script>
 
   </body>
   </html>
