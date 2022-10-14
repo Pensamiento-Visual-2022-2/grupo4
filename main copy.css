@@ -222,13 +222,73 @@ figure:hover > figcaption {
   padding: 0px;
 }
 
+#s2_datos_2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+
+#s2_grafico_b{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#s2_izquierda{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.cuadrado{
+  background: red;
+  width: 100%;
+  border-radius: 10px;
+  margin: 30px;
+}
+
+.s2_barras {
+  display: block;
+}
+.s2_texto_b{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 0px;
+}
+
+#s2_porcentaje_stem{
+  padding-left: 100px;
+}
+
+#s2_btotal{
+  width: 100%;
+}
+#s2_bs{
+  width: 20%;
+}
+#s2_bt{
+  width: 45%;
+}
+#s2_be{
+  width: 45%;
+}
+#s2_bm{
+  width: 45%;
+}
+
 
 /*--------------------------- Sección 3 ---------------------------*/
 #seccion_3{
   position:absolute;
   width: 80%;
   padding: 10%;
-  top: 1500px;
+  top: 2000px;
   min-height: 400px;
   display: flex;
   align-items: center;
@@ -302,12 +362,12 @@ figure:hover > figcaption {
 
 #seccion4_izquierda{
   position: absolute;
-  top: 2400px;
+  top: 3000px;
 }
 
 #seccion4_derecha{
   position: absolute;
-  top: 2520px;
+  top: 3000px;
   min-height: 750px;
 }
 
@@ -337,7 +397,7 @@ figure:hover > figcaption {
   position:absolute;
   width: 80%;
   padding: 10%;
-  top: 3210px;
+  top: 4000px;
   min-height: 400px;
   display: flex;
   align-items: center;
@@ -365,7 +425,7 @@ figure:hover > figcaption {
   position:absolute;
   padding: 10px;
   margin: 10px;
-  top: 3740px;
+  top: 4500px;
   background: #572364;
   height: 100px;
   width: 97%;
