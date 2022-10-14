@@ -171,25 +171,11 @@ figure:hover > figcaption {
 }
 
 
-#mujer_1{
-  height: 120px;
-  width: 45px;
-  float: left;
-  padding-top: 50px;
-}
-
 .persona_m1{
   height: 120px;
   width: 45px;
   float: left;
   padding-top: 40px;
-}
-
-.persona_m2{
-  height: 120px;
-  width: 45px;
-  float: left;
-  padding-top: 50px;
 }
 
 
@@ -202,6 +188,10 @@ figure:hover > figcaption {
   
 }
 
+.s2_niña :hover {
+  box-shadow: 0px 5px 3px #131200;
+}
+
 #s2_niñas{
   padding-right: 40px;
 }
@@ -209,6 +199,10 @@ figure:hover > figcaption {
 .s2_logo{
   width: 23px;
   display: block;
+}
+
+.s2_logo:hover {
+  width: 30px;
 }
 
 #s2_logos{
