@@ -188,7 +188,7 @@ figure:hover > figcaption {
   
 }
 
-.s2_niña :hover {
+.s2_niña img:hover {
   box-shadow: 0px 5px 3px #131200;
 }
 
@@ -207,7 +207,9 @@ figure:hover > figcaption {
 
 #s2_logos{
   padding-right: 40px;
-}
+  display: flex;
+  align-items: center;
+  flex-direction: column;}
 
 #s2_objetos{
   display: flex;
