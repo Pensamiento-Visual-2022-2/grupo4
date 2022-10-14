@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Investigación Brecha de Género Profesional en Chile </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link href="ale_prueba.css" rel="stylesheet"/>
+    <script src="text.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div>
+        <header> <h1> ¿Yo en STEM? </h1> </header>
+    </div>
+   
+    <section id="seccion_2">
+        <h4 class="titulo"> Nuestra participación académica a lo largo de la historia</h4>
+        <div class="s2_niña">
+            <p id="s2_cifra_1" class="s2_cifra">1000</p>
+            <img id="muno" onclick="mostrar_periodo_1();" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <p class="s2_periodo">2005-2006</p>
+        </div>
+        <div class="s2_niña">
+            <p id="s2_cifra_2" class="s2_cifra">2000</p>
+            <img id="mdos" onclick="mostrar_periodo_1();" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <p class="s2_periodo">2007-2008</p>
+        </div>
+        <div class="s2_niña">
+            <p id="s2_cifra_3" class="s2_cifra">3000</p>
+            <img id="mtres" onclick="mostrar_periodo_1();" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <p class="s2_periodo">2009-2010</p>
+        </div>
+        <div class="s2_niña">
+            <p id="s2_cifra_4" class="s2_cifra">4000</p>
+            <img id="mcuatro" onclick="mostrar_periodo_1();" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <p class="s2_periodo">2011-2012</p>
+        </div>
+        <div class="s2_niña">
+            <p id="s2_cifra_5" class="s2_cifra">5000</p>
+            <img id="mcinco" onclick="mostrar_periodo_1();" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <p class="s2_periodo">2013-2014</p>
+        </div>
+        <div class="s2_niña">
+            <p id="s2_cifra_6" class="s2_cifra">6000</p>
+            <img id="mseis" onclick="mostrar_periodo_1();" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <p class="s2_periodo">2015-2016</p>
+        </div>
+        <div class="s2_niña">
+            <p id="s2_cifra_7" class="s2_cifra">7000</p>
+            <img id="msiete" onclick="mostrar_periodo_1();" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <p class="s2_periodo">2017-2018</p>
+        </div>
+        <div class="s2_niña">
+            <p id="s2_cifra_8" class="s2_cifra">8000</p>
+            <img id="mocho" onclick="mostrar_periodo_1();" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <p class="s2_periodo">2019-2020</p>
+        </div>
+        <div class="s2_niña">
+            <p id="s2_cifra_9" class="s2_cifra">9000</p>
+            <img id="mnuevve" onclick="mostrar_periodo_1();" src="./imagenes/mujer_s2.png" alt="Prueba"/>
+            <p class="s2_periodo">2021-2022</p>
+        </div>
+        
+
+
+    </section>
+    <script type='text/javascript'>
+    
+    let datos_seccion_2 = [
+   {
+      'id': "2005-2006",
+      's_mujer': 28074,
+      't_mujer': 14955,
+      'e_mujer': 932,
+      'm_mujer': 1166,
+      'cantidad_mujeres': 45127,
+      'total': 161923
+   },
+   {
+      'id': "2007-2008",
+      's_mujer': 29955,
+      't_mujer': 18594,
+      'e_mujer': 1134,
+      'm_mujer': 1196,
+      'cantidad_mujeres': 50879,
+      'total': 183828
+   },
+   {
+      'id': "2009-2010",
+      's_mujer': 32420,
+      't_mujer': 29284,
+      'e_mujer': 1091,
+      'm_mujer': 1211,
+      'cantidad_mujeres': 64006,
+      'total': 231720
+   },
+   {
+      'id': "2011-2012",
+      's_mujer': 33648,
+      't_mujer': 43242,
+      'e_mujer': 838,
+      'm_mujer': 1152,
+      'cantidad_mujeres': 78880,
+      'total': 290099
+   },
+   {
+      'id': "2013-2014",
+      's_mujer': 34826,
+      't_mujer': 67176,
+      'e_mujer': 734,
+      'm_mujer': 989,
+      'cantidad_mujeres': 103725,
+      'total': 365829
+   },
+   {
+      'id': "2015-2016",
+      's_mujer': 37357,
+      't_mujer': 64022,
+      'e_mujer': 691,
+      'm_mujer': 944,
+      'cantidad_mujeres': 103014,
+      'total': 382557
+   },
+   {
+      'id': "2017-2018",
+      's_mujer': 40672,
+      't_mujer': 49629,
+      'e_mujer': 668,
+      'm_mujer': 928,
+      'cantidad_mujeres': 91897,
+      'total': 349083
+   },
+   {
+      'id': "2019-2020",
+      's_mujer': 45440,
+      't_mujer': 40862,
+      'e_mujer': 680,
+      'm_mujer': 899,
+      'cantidad_mujeres': 87881,
+      'total': 333165
+   },
+   {
+      'id': "2021-2022",
+      's_mujer': 51564,
+      't_mujer': 40922,
+      'e_mujer': 788,
+      'm_mujer': 810,
+      'cantidad_mujeres': 94084,
+      'total': 323847
+   },
+   ];
+   
+   let foto_1 = document.getElementById("muno");
+   let foto_2 = document.getElementById("mdos");
+   let foto_3 = document.getElementById("mtres");
+   let foto_4 = document.getElementById("mcuatro");
+   let foto_5 = document.getElementById("mcinco");
+   let foto_6 = document.getElementById("mseis");
+   let foto_7 = document.getElementById("msiete");
+   let foto_8 = document.getElementById("mocho");
+   let foto_9 = document.getElementById("mnueve");
+   let ponderador = 1/800
+   
+   foto_1.style.width = datos_seccion_2[0].cantidad_mujeres*ponderador + 'px';
+   foto_2.style.width = datos_seccion_2[1].cantidad_mujeres*ponderador + 'px';
+   foto_3.style.width = datos_seccion_2[2].cantidad_mujeres*ponderador + 'px';
+   foto_4.style.width = datos_seccion_2[3].cantidad_mujeres*ponderador + 'px';
+   foto_5.style.width = datos_seccion_2[4].cantidad_mujeres*ponderador + 'px';
+   foto_6.style.width = datos_seccion_2[5].cantidad_mujeres*ponderador + 'px';
+   foto_7.style.width = datos_seccion_2[6].cantidad_mujeres*ponderador + 'px';
+   foto_8.style.width = datos_seccion_2[7].cantidad_mujeres*ponderador + 'px';
+   foto_9.style.width = datos_seccion_2[8].cantidad_mujeres*ponderador + 'px';
+
+
+    </script>
+
+  </body>
+  </html>
