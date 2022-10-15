@@ -1,11 +1,11 @@
 body{
-  background: #E0DDD5;
+  background: #F1DAD2;
   font-family:'Raleway', sans-serif;
 }
 
 
 header{
-  background:  #5147df;
+  background:  #4a273e;
   height: 100px;
   margin: 10px;
   padding: 10px;
@@ -13,13 +13,13 @@ header{
   line-height: 10px;
   text-align: center;
   align-items: center;
-  color: #E0DDD5;
+  color: #F1DAD2;
  
 }
 
 .titulo{
   font-size: 40px;
-  color:#5147df;
+  color:#4a273e;
   text-align: center;
   padding: 10px;
   padding-top: 50px;
@@ -28,14 +28,14 @@ header{
 
 .titulo_2{
   font-size: 70px;
-  color:#5147df;
+  color:#4a273e;
   padding-top: 20px;
   font-display: bold;
 }
 
 .titulo3{
   font-size: 40px;
-  color:#5147df;
+  color:#4a273e;
   text-align: center;
   font-display: bold;
   padding-top: 300px;
@@ -85,7 +85,7 @@ article{
 }
 
 .seccion_derecha{
-  background: #DDC970;;
+  background: #A45D89;;
   position: absolute;
   width: 25%;
   right: 0%;
@@ -98,7 +98,7 @@ article{
   justify-content: center;
   flex-direction: column;
   min-height: 600px;
-  box-shadow: 3px 5px 5px #131200;
+  box-shadow: 3px 5px 5px;
   border-radius: 50px;
 }
 
@@ -140,7 +140,7 @@ figure:hover > figcaption {
   padding-right: 150px;
   width: 10px;
   font-style: open ;
-  color:#d885e1;
+  color: #ee5e3c;;
 }
 
 .imagenes2{
@@ -247,7 +247,7 @@ figure:hover > figcaption {
   flex-direction: column;
 }
 .cuadrado{
-  background: #d885e1;
+  background: #ee5e3c;
   width: 100%;
   border-radius: 10px;
   margin: 30px;
@@ -299,7 +299,7 @@ figure:hover > figcaption {
 }
 .seccion_derecha1{
   /* background: #7698b3; */
-  background:#DDC970;
+  background:#ee5e3c;
   position: absolute;
   width: 28%;
   right: 0%;
@@ -316,7 +316,7 @@ figure:hover > figcaption {
 }
 .titulo3{
   font-size: 40px;
-  color:#5147df;
+  color:#4a273e;
   text-align: center;
   font-display: bold;
   padding-top: 15px;
@@ -325,7 +325,7 @@ figure:hover > figcaption {
 .color-select{
   width: 1400px;
   height: 5px;
-  background-color:#db7040  ;
+  background-color:#ee5e3c  ;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -336,7 +336,7 @@ figure:hover > figcaption {
 .color-select div{
   width: 50px;
   height: 50px;
-  background: #d885e1;
+  background: #ed838f;
   border-radius: 50%;
   margin-right: 30px;
   cursor: pointer;
@@ -370,7 +370,7 @@ figure:hover > figcaption {
 }
 #palabrafuerte{
   font-size: 20px;
-  color: #5147df;
+  color: #4a273e;
   font-weight: 100px;
 
 }
@@ -384,7 +384,7 @@ figure:hover > figcaption {
   width: 33.33%;
 }
 .seccion_derecha2{
-  background: #DDC970;;
+  background: #ee5e3c;;
   position: absolute;
   width: 25%;
   right: 0%;
@@ -420,10 +420,10 @@ figure:hover > figcaption {
 }
 
 .s4_opcion{
-  background: #D56F41;
+  background: #ee5e3c;
   padding: 10px;
   margin: 10px;
-  color: #E0DDD5;
+  color: #F1DAD2;
   height: 20px;
   margin-top: 120px;
   min-width: 80px;
@@ -469,7 +469,7 @@ figure:hover > figcaption {
   padding: 10px;
   margin: 10px;
   top: 4200px;
-  background:#5147df ;
+  background:#4a273e ;
   height: 100px;
   width: 97%;
  
@@ -478,7 +478,7 @@ figure:hover > figcaption {
 /*--------------------------- barra--------------------------*/
 #navbar {
   background-color: black; /* Black background color */
-  background: #5147df;
+  background: #4a273e;
   position: fixed; /* Make it stick/fixed */
   top: -50px; /* Hide the navbar 50 px outside of the top view */
   width: 100%; /* Full width */
@@ -490,7 +490,7 @@ figure:hover > figcaption {
 #navbar a {
   float: left;
   display: block;
-  color: white;
+  color: #4a273e;
   text-align: center;
   text-decoration: none;
 }
@@ -498,7 +498,7 @@ figure:hover > figcaption {
 
 
 #navbar li:hover {
-  background-color: #5147df;
+  background-color: #4a273e;
   color: black;
 }
 
