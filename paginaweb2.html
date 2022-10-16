@@ -331,9 +331,15 @@
             <p><strong id="palabrafuerte">Desigualdad de sueldos.</strong></p>
             <p> A continuación e presentan los  datos de los <strong>ingresos medios mensuales </strong>  de las personas ocupadas por sexo  y exponiendo la <strong>diferencia </strong> que existe en el ingreso medio de las mujeres ocupadas con respecto al de los hombres ocupados.</p>
         </div>
-    
     </section>
-    
+    <div class="textox">
+        <article  id="s_p_stem">
+            <h2> presiona los botones para ver la diferencia durante los años</h2>
+        </article>
+
+        <article id="s_p_s" class="oculto">
+            <h3> Genero maculino: 704.274 y Genero femenino: 506.651</h3>
+    </div>
     <script type='text/javascript'>
     let b1Btn = document.getElementById("boton1")
     let b2Btn = document.getElementById("boton2")
@@ -347,8 +353,13 @@
     let b10Btn = document.getElementById("boton10")
     let b11Btn = document.getElementById("boton11")
     let imgchange = document.getElementById("imgchange")
+
+    var dataset = [ 5, 10, 15, 20, 25];
+ 
     b11Btn.onclick = function () {
         imgchange.src = "./imagenes/monedas2020.png"
+        document.getElementById('s_p_stem').style.display = "none";
+        document.getElementById('s_p_s').style.display = "block";
     }
     b10Btn.onclick = function () {
         imgchange.src = "./imagenes/monedas2019.png"

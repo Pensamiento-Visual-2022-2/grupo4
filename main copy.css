@@ -361,7 +361,7 @@ figure:hover > figcaption {
 .images img {
   opacity: 0.9;
   cursor: pointer;
-  margin-top: 50px;
+  margin-top: 100px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -379,6 +379,10 @@ figure:hover > figcaption {
 }
 .texto3{
   float: right;
+}
+.textox{
+  margin-top :2100px;
+  margin-left: 250px;
 }
 
 /*--------------------------- Sección 4 ---------------------------*/
