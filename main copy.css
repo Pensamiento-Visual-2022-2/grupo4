@@ -233,6 +233,7 @@ figure:hover > figcaption {
   justify-content: center;
   flex-direction: row;
   margin-top: 20px;
+  width: 100%;
 }
 
 
@@ -241,6 +242,7 @@ figure:hover > figcaption {
   align-items: center;
   justify-content: center;
   flex-direction: row;
+  width: 100%;
 }
 
 #s2_izquierda{
@@ -248,6 +250,7 @@ figure:hover > figcaption {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
 }
 .cuadrado{
   background: #4e6294;
@@ -268,24 +271,10 @@ figure:hover > figcaption {
 }
 
 #s2_porcentaje_stem{
-  padding-left: 100px;
+  padding-left: 10px;
 }
 
-#s2_btotal{
-  width: 100%;
-}
-#s2_bs{
-  width: 50%;
-}
-#s2_bt{
-  width: 45%;
-}
-#s2_be{
-  width: 45%;
-}
-#s2_bm{
-  width: 100%;
-}
+
 
 
 /*--------------------------- Sección 3 ---------------------------*/
