@@ -39,7 +39,7 @@ header{
   color:#4e6294;
   text-align: center;
   font-display: bold;
-  padding-top: 300px;
+ 
 }
 
 
@@ -75,7 +75,6 @@ article{
   padding: 20px;
   margin-left: 10px;
   margin-right: 20px;
-  margin-top: 35px;
   margin-bottom: 35px;
   display: flex;
   align-items: center;
@@ -126,7 +125,7 @@ figure:hover > figcaption {
 
 /*--------------------------- Sección 1 ---------------------------*/
 #seccion1_izquierda{
-  min-height: 700px;
+  min-height: 500px;
 }
 
 #seccion1_derecha{
@@ -161,6 +160,12 @@ figure:hover > figcaption {
 
 #mouse{
   margin-left: 700px;
+}
+#animate{
+  padding-left: 50px;
+  margin-top: 5px;
+  font-size: 35px;
+  color:#CE77BE ;
 }
 
 
@@ -298,7 +303,7 @@ figure:hover > figcaption {
   width: 28%;
   right: 0%;
   margin-right: 490px;
-  margin-top: 250px;
+  margin-top: 170px;
   padding: 20px;
   display: flex;
   align-items: center;
@@ -318,13 +323,12 @@ figure:hover > figcaption {
   margin-right: 410px;
   top: 2810px;
   padding: 20px;
-  display: flex;
-  align-items: center;
   justify-content: center;
   flex-direction: column;
   min-height: 100px;
-  box-shadow: 3px 5px 5px #131200;
-  border-radius: 50px;
+  box-shadow:  3px 5px 5px #131200;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
   color: #efd7d5;
 }
 .seccion_derecha4{
@@ -334,15 +338,16 @@ figure:hover > figcaption {
   width: 35%;
   right: 0%;
   margin-right: 410px;
-  top: 3050px;
+  top: 3000px;
   padding: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100px;
   box-shadow: 3px 5px 5px #131200;
-  border-radius: 50px;
-  color: #efd7d5;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: black;
 }
 #palabraa{
   font-size: 23px;
@@ -382,6 +387,7 @@ figure:hover > figcaption {
 .color-select p{
   margin-top: 10px;
   margin-left: 10px;
+  color: #efd7d5;
 }
 .images {
   float: none;
@@ -415,7 +421,7 @@ figure:hover > figcaption {
 }
 
 .textox{
-  margin-top: 2310px;
+  margin-top: 2280px;
   margin-left: 487.2px;
   color: #131200;
   position: absolute;
@@ -436,6 +442,10 @@ figure:hover > figcaption {
 #palabrita{
   color:#4e6294;
   font-size: 23px;
+}
+#palabrita{
+  font-size: 16px;
+  color: black;
 }
 /*--------------------------- Sección 4 ---------------------------*/
 .columna {
@@ -464,12 +474,12 @@ figure:hover > figcaption {
 
 #seccion4_izquierda{
   position: absolute;
-  top: 3000px;
+  top: 3300px;
 }
 
 #seccion4_derecha{
   position: absolute;
-  top: 3300px;
+  top: 3700px;
   min-height: 550px;
 }
 
@@ -499,7 +509,7 @@ figure:hover > figcaption {
   position:absolute;
   width: 80%;
   padding: 10%;
-  top: 3850px;
+  top: 4250px;
   min-height: 400px;
   display: flex;
   align-items: center;
@@ -527,7 +537,7 @@ figure:hover > figcaption {
   position:absolute;
   padding: 10px;
   margin: 10px;
-  top: 4300px;
+  top: 4700px;
   background:#4e6294 ;
   height: 100px;
   width: 97%;
