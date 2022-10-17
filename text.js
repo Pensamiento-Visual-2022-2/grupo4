@@ -50,7 +50,7 @@ function cambiar3(){
 
 }
 function cambiar4(){
-    document.getElementById('matrix').src="./imagenes/Dibujosstem-4.png";
+    document.getElementById('matrix').src="./imagenes/mathematics.png";
     document.getElementById('s1_p_stem').style.display = "none";
     document.getElementById('s1_p_m').style.display = "block";
 }
