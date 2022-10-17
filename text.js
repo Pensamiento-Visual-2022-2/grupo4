@@ -25,7 +25,7 @@ function scrollFunction() {
 d3.selectAll("p").style("color", "blue");
 //funciones sección STEM //
 function cambiar1(){
-    document.getElementById('matrix').src="./imagenes/Dibujosstem-1.png";
+    document.getElementById('matrix').src="./imagenes/cienca.png";
     document.getElementById('s1_p_stem').style.display = "none";
     document.getElementById('s1_p_s').style.display = "block";
 }
@@ -39,30 +39,21 @@ function volver(){
     document.getElementById('s1_p_porcent').style.display = "none";
 }
 function cambiar2(){
-    document.getElementById('matrix').src="./imagenes/Dibujosstem-2.png";
+    document.getElementById('matrix').src="./imagenes/tecnología.png";
     document.getElementById('s1_p_stem').style.display = "none";
     document.getElementById('s1_p_t').style.display = "block";
 }
 function cambiar3(){
-    document.getElementById('matrix').src="./imagenes/Dibujosstem-3.png";
+    document.getElementById('matrix').src="./imagenes/ingenieria.png";
     document.getElementById('s1_p_stem').style.display = "none";
     document.getElementById('s1_p_e').style.display = "block";
 
 }
 function cambiar4(){
-    document.getElementById('matrix').src="./imagenes/mathematics.png";
+    document.getElementById('matrix').src="./imagenes/matematica.png";
     document.getElementById('s1_p_stem').style.display = "none";
     document.getElementById('s1_p_m').style.display = "block";
 }
-function cambiar2a(){
-    document.getElementById('matrix2').src="./imagenes/Dibujosstem-6.jpg";
-    document.getElementById('s1_p_stem').style.display = "none";
-    document.getElementById('s1_p_porcent').style.display = "block";
-}
-function volver2a(){
-    document.getElementById('matrix2').src="./imagenes/Dibujosstem-6.jpg";
-}
-
 //funciones sección 2//
 
 //botones//

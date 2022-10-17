@@ -388,6 +388,10 @@ figure:hover > figcaption {
   color: black;
   font-size: 22px;
 }
+.negrita2{
+  color:#CE77BE;
+  font-size: 17px;
+}
 .titulo3{
   font-size: 40px;
   color:#CE77BE;
@@ -473,11 +477,11 @@ figure:hover > figcaption {
 }
 
 #fraseseccion3{
-  margin-top: 2970px;
-  margin-left: 510px;
-  margin-right: 300px;
-  font-size: 30px;
-  color: #CE77BE;
+  margin-top: 2980px;
+  text-align: center;
+  padding: left;
+  font-size: 40px;
+  color:#4e6294;
 }
 /*--------------------------- Sección 4 ---------------------------*/
 .columna {
@@ -538,18 +542,20 @@ figure:hover > figcaption {
 /*seccion 4.1*/
 .container1 {
   position: relative;
-  width: 40%;
+  width: 60%;
   height: auto;
   
 }
-.column > .container1{
-  padding: 0 8px;
+.column{
+  display: flex;
+  margin-top: 120px;
 }
+
 
 /* Make the image to responsive */
 .image {
   display: block;
-  width: 35%;
+  width: 65%;
   height: auto;
   
 }
@@ -562,8 +568,8 @@ figure:hover > figcaption {
   right: 0;
   background-color: #4e6294;
   overflow: hidden;
-  width: 50%;
-  height: 100%;
+  width: 100%;
+  height: 150%;
  
   transform: scale(0);
   transition: .3s ease;
@@ -580,14 +586,13 @@ figure:hover > figcaption {
 /* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
 .text {
   color: #EFD7D5;
-  font-size: 12px;
+  font-size: 15px;
   position: absolute;
-  top: 50%;
+  top: 48%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  padding: left 10%;
-  padding-right: 10%; 
+  padding: left;
 }
 /*--------------------------- Sección 5 ---------------------------*/
 #seccion_5{
