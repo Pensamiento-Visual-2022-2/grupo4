@@ -536,6 +536,54 @@ figure:hover > figcaption {
   display: none;
 }
 
+/*seccion 4.1*/
+.container1 {
+  position: relative;
+  width: 50%;
+  
+}
+
+/* Make the image to responsive */
+.image {
+  display: block;
+  width: 50%;
+  height: auto;
+  
+}
+
+/* The overlay effect (full height and width) - lays on top of the container and over the image */
+.overlay {
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #4e6294;
+  overflow: hidden;
+  width: 55%;
+  height: 100%;
+ 
+  transform: scale(0);
+  transition: .3s ease;
+  box-shadow: 3px 5px 5px;
+  border-radius: 50px;
+
+}
+
+/* When you mouse over the container, the overlay text will "zoom" in display */
+.container1:hover .overlay {
+  transform: scale(1);
+}
+
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.text {
+  color: #EFD7D5;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 /*--------------------------- Sección 5 ---------------------------*/
 #seccion_5{
   position:absolute;
