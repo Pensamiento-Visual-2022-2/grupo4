@@ -30,7 +30,7 @@ function cambiar1(){
     document.getElementById('s1_p_s').style.display = "block";
 }
 function volver(){
-    document.getElementById('matrix').src="./imagenes/stem.png";
+    document.getElementById('matrix').src="./imagenes/principal.jpg";
     document.getElementById('s1_p_stem').style.display = "block";
     document.getElementById('s1_p_s').style.display = "none";
     document.getElementById('s1_p_t').style.display = "none";

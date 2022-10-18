@@ -98,83 +98,90 @@
         
     </div>
     </section>
-
     <section id="seccion_2">
-        <h4 class="titulo"> Nuestra participación académica a lo largo de la historia</h4>
+        <h4 id="titulo_s2" class="titulo"> Descubre nuestra participación a lo largo de los años...</h4>
         <div id="s2_objetos">
             <div id="s2_logos" class="s2_objeto">
-                <img id="s2_actualizar" class="s2_logo" onclick="mostrar_periodo(1);" src="./imagenes/actualizar.svg" alt="Actualizar"/>
-                <img id="s2_ver" class="s2_logo" onclick="mostrar_periodo_1();" src="./imagenes/ojo.svg" alt="Ojo"/>
+                <img id="s2_actualizar" class="s2_logo" onclick="s2_actualizar();" src="./imagenes/actualizar.svg" alt="Actualizar"/>
             </div>
             <div id="s2_niñas"  class="s2_objeto">
-                <div class="s2_niña">
-                    <p id="s2_cifra_1" class="s2_cifra">1000</p>
+                <div id="n1" class="s2_niña">
                     <img id="muno" onclick="mostrar_periodo(1);" src="./imagenes/mujer_s2.png" alt="Prueba"/>
                     <p class="s2_periodo">2005-2006</p>
+                    <p id="s2_cifra_1i" class="s2_cifra_i">-----</p>
                 </div>
-                <div class="s2_niña">
-                    <p id="s2_cifra_2" class="s2_cifra">2000</p>
+                <div id="n2" class="s2_niña">
                     <img id="mdos" onclick="mostrar_periodo(2);" src="./imagenes/mujer_s2.png" alt="Prueba"/>
                     <p class="s2_periodo">2007-2008</p>
+                    <p id="s2_cifra_2" class="s2_cifra">-----</p>
                 </div>
-                <div class="s2_niña">
-                    <p id="s2_cifra_3" class="s2_cifra">3000</p>
+                <div id="n3" class="s2_niña">
                     <img id="mtres" onclick="mostrar_periodo(3);" src="./imagenes/mujer_s2.png" alt="Prueba"/>
                     <p class="s2_periodo">2009-2010</p>
+                    <p id="s2_cifra_3" class="s2_cifra">-----</p>
                 </div>
-                <div class="s2_niña">
-                    <p id="s2_cifra_4" class="s2_cifra">4000</p>
+                <div id="n4" class="s2_niña">
                     <img id="mcuatro" onclick="mostrar_periodo(4);" src="./imagenes/mujer_s2.png" alt="Prueba"/>
                     <p class="s2_periodo">2011-2012</p>
+                    <p id="s2_cifra_4" class="s2_cifra">-----</p>
                 </div>
-                <div class="s2_niña">
-                    <p id="s2_cifra_5" class="s2_cifra">5000</p>
+                <div id="n5" class="s2_niña">
                     <img id="mcinco" onclick="mostrar_periodo(5);" src="./imagenes/mujer_s2.png" alt="Prueba"/>
                     <p class="s2_periodo">2013-2014</p>
+                    <p id="s2_cifra_5i" class="s2_cifra_i">-----</p>
                 </div>
-                <div class="s2_niña">
-                    <p id="s2_cifra_6" class="s2_cifra">6000</p>
+                <div id="n6" class="s2_niña">
                     <img id="mseis" onclick="mostrar_periodo(6);" src="./imagenes/mujer_s2.png" alt="Prueba"/>
                     <p class="s2_periodo">2015-2016</p>
+                    <p id="s2_cifra_6i" class="s2_cifra_i">-----</p>
                 </div>
-                <div class="s2_niña">
-                    <p id="s2_cifra_7" class="s2_cifra">7000</p>
+                <div id="n7" class="s2_niña">
                     <img id="msiete" onclick="mostrar_periodo(7);" src="./imagenes/mujer_s2.png" alt="Prueba"/>
                     <p class="s2_periodo">2017-2018</p>
+                    <p id="s2_cifra_7" class="s2_cifra">-----</p>
                 </div>
-                <div class="s2_niña">
-                    <p id="s2_cifra_8" class="s2_cifra">8000</p>
+                <div id="n8" class="s2_niña">
                     <img id="mocho" onclick="mostrar_periodo(8);" src="./imagenes/mujer_s2.png" alt="Prueba"/>
                     <p class="s2_periodo">2019-2020</p>
+                    <p id="s2_cifra_8" class="s2_cifra">-----</p>
                 </div>
-                <div class="s2_niña">
-                    <p id="s2_cifra_9" class="s2_cifra">9000</p>
+                <div id="n9" class="s2_niña">
                     <img id="mnueve" onclick="mostrar_periodo(9);" src="./imagenes/mujer_s2.png" alt="Prueba"/>
                     <p class="s2_periodo">2021-2022</p>
+                    <p id="s2_cifra_9i" class="s2_cifra_i" >-----</p>
                 </div>
             </div>
         </div>
         <div id="s2_datos_2">
-            <div id="s2_izquierda">
+        <div id="s2_datos_2_i">
             <p>¿Cuántas mujeres somos en cada área?</p>
             <div id="s2_grafico_b">
                 <div class="s2_texto_b">
-                    <p>STEM</p>
                     <p>S</p>
                     <p>T</p>
                     <p>E</p>
                     <p>M</p>
                 </div>
                 <div class="s2_barras">
-                    <div id="s2_btotal" class="cuadrado">1</div>
-                    <div id="s2_bs" class="cuadrado">1</div>
-                    <div id="s2_bt" class="cuadrado">1</div>
-                    <div id="s2_be" class="cuadrado">1</div>
-                    <div id="s2_bm" class="cuadrado">1</div>
+                    <div id="s2_bs" class="cuadrado"> - </div>
+                    <div id="s2_bt" class="cuadrado"> - </div>
+                    <div id="s2_be" class="cuadrado"> - </div>
+                    <div id="s2_bm" class="cuadrado"> - </div>
                 </div>
             </div>
+        </div>
+        <div id="s2_datos_2_d">
+            <p id="d_texto_e1" class="s2_p"> El tamaño de la niña te indica cuántas matrículas hemos tenido durante cada periodo, 
+                es decir, la <strong> niña es más grande</strong> cuándo hemos tenido más participación y es <strong> más pequeña</strong>
+                en los periodos con menos inscripción en las carreras de STEM. </p>
+            <p id="d_texto_e2" class="s2_p">Por otra parte, las <strong> barras más azules</strong>  indican que tuvimos más participación en cierta área
+                y las <strong> barras menos azules</strong> describen una menor participación. Podrás notar que <strong> históricamente hemos tenido
+                    mayor cantidad de matriculas en las áreas de ciencias y tecnología </strong> sin embargo, en esta última a lo largo de los años
+                    <strong> no hemos sobrepasado el 25% de la participación </strong>.
+        </div>
+        </div>
         
-        <h4 class="titulo3">...Pero aún queda camino por recorrer</h4>
+        <h4 id="titulo_s3" class="titulo3">Pero aún queda camino por recorrer...</h4>
     </section>
 
 
@@ -201,12 +208,9 @@
         'e_mujer': 1134,
         'm_mujer': 1196,
         's_hombre': 28036,
-        't_hombre': 101943
-,
-        'e_hombre': 1471
-,
-        'm_hombre': 1499
-,
+        't_hombre': 101943,
+        'e_hombre': 1471,
+        'm_hombre': 1499,
         'cantidad_mujeres': 50879,
         'total': 183828
     },
@@ -216,14 +220,10 @@
         't_mujer': 29284,
         'e_mujer': 1091,
         'm_mujer': 1211,
-        's_hombre': 29693
-,
-        't_hombre': 134876
-,
-        'e_hombre': 1495
-,
-        'm_hombre': 1650
-,
+        's_hombre': 29693,
+        't_hombre': 134876,
+        'e_hombre': 1495,
+        'm_hombre': 1650,
         'cantidad_mujeres': 64006,
         'total': 231720
     },
@@ -233,14 +233,10 @@
         't_mujer': 43242,
         'e_mujer': 838,
         'm_mujer': 1152,
-        's_hombre': 31199
-,
-        't_hombre': 177110
-,
-        'e_hombre': 1200
-,
-        'm_hombre': 1710
-,
+        's_hombre': 31199,
+        't_hombre': 177110,
+        'e_hombre': 1200,
+        'm_hombre': 1710,
         'cantidad_mujeres': 78880,
         'total': 290099
     },
@@ -250,14 +246,10 @@
         't_mujer': 67176,
         'e_mujer': 734,
         'm_mujer': 989,
-        's_hombre': 32240
-,
-        't_hombre': 227083
-,
-        'e_hombre': 1189
-,
-        'm_hombre': 1592
-,
+        's_hombre': 32240,
+        't_hombre': 227083,
+        'e_hombre': 1189,
+        'm_hombre': 1592,
         'cantidad_mujeres': 103725,
         'total': 365829
     },
@@ -267,14 +259,10 @@
         't_mujer': 64022,
         'e_mujer': 691,
         'm_mujer': 944,
-        's_hombre': 34163
-,
-        't_hombre': 242463
-,
-        'e_hombre': 1227
-,
-        'm_hombre': 1690
-,
+        's_hombre': 34163,
+        't_hombre': 242463,
+        'e_hombre': 1227,
+        'm_hombre': 1690,
         'cantidad_mujeres': 103014,
         'total': 382557
     },
@@ -284,14 +272,10 @@
         't_mujer': 49629,
         'e_mujer': 668,
         'm_mujer': 928,
-        's_hombre': 36151
-,
-        't_hombre': 217919
-,
-        'e_hombre': 1271
-,
-        'm_hombre': 1845
-,
+        's_hombre': 36151,
+        't_hombre': 217919,
+        'e_hombre': 1271,
+        'm_hombre': 1845,
         'cantidad_mujeres': 91897,
         'total': 349083
     },
@@ -301,14 +285,10 @@
         't_mujer': 40862,
         'e_mujer': 680,
         'm_mujer': 899,
-        's_hombre': 38147
-,
-        't_hombre': 203795
-,
-        'e_hombre': 1345
-,
-        'm_hombre': 1997
-,
+        's_hombre': 38147,
+        't_hombre': 203795,
+        'e_hombre': 1345,
+        'm_hombre': 1997,
         'cantidad_mujeres': 87881,
         'total': 333165
     },
@@ -318,14 +298,10 @@
         't_mujer': 40922,
         'e_mujer': 788,
         'm_mujer': 810,
-        's_hombre': 37581
-,
-        't_hombre': 188564
-,
-        'e_hombre': 1642
-,
-        'm_hombre': 1976
-,
+        's_hombre': 37581,
+        't_hombre': 188564,
+        'e_hombre': 1642,
+        'm_hombre': 1976,
         'cantidad_mujeres': 94084,
         'total': 323847
     },
@@ -353,18 +329,139 @@
    foto_9.style.width = datos_seccion_2[8].cantidad_mujeres*ponderador + 'px';
 
    function mostrar_periodo(i){
-    var n = i - 1;
-    var d = datos_seccion_2;
-    var p_s = (d[n].s_mujer/(d[n].s_mujer + d[n].s_hombre)) * 100;
-    var p_t = (d[n].t_mujer/(d[n].t_mujer + d[n].t_hombre)) * 100;
-    var p_e = (d[n].e_mujer/(d[n].e_mujer + d[n].e_hombre)) * 100;
-    var p_m = (d[n].m_mujer/(d[n].m_mujer + d[n].m_hombre)) * 100;
-    document.getElementById("s2_bs").style.width = p_s + "%";
-    document.getElementById("s2_bt").style.width = p_t + "%";
-    document.getElementById("s2_be").style.width = p_e + "%";
-    document.getElementById("s2_bm").style.width = p_m + "%";
+        var n = i - 1;
+        var d = datos_seccion_2;
+        var p_s = Math.round((d[n].s_mujer/(d[n].s_mujer + d[n].s_hombre)) * 100);
+        var p_t = Math.round((d[n].t_mujer/(d[n].t_mujer + d[n].t_hombre)) * 100);
+        var p_e = Math.round((d[n].e_mujer/(d[n].e_mujer + d[n].e_hombre)) * 100);
+        var p_m = Math.round((d[n].m_mujer/(d[n].m_mujer + d[n].m_hombre)) * 100);
+        var total = d[n].s_mujer + d[n].t_mujer + d[n].e_mujer + d[n].m_mujer
+        var opa_s = d[n].s_mujer/total * 100 + 50
+        var opa_t = d[n].t_mujer/total * 100 + 50
+        var opa_e = d[n].e_mujer/total * 100 + 50
+        var opa_m = d[n].m_mujer/total * 100 + 50
+        
+        document.getElementById("s2_bs").style.width = p_s + "%";
+        document.getElementById("s2_bt").style.width = p_t + "%";
+        document.getElementById("s2_be").style.width = p_e + "%";
+        document.getElementById("s2_bm").style.width = p_m + "%";
+        document.getElementById("s2_bs").textContent = p_s + "%";
+        document.getElementById("s2_bt").textContent = p_t + "%";
+        document.getElementById("s2_be").textContent = p_e + "%";
+        document.getElementById("s2_bm").textContent = p_m + "%";
+        document.getElementById("s2_bs").style.opacity = opa_s + "%";
+        document.getElementById("s2_bt").style.opacity = opa_t + "%";
+        document.getElementById("s2_be").style.opacity = opa_e + "%";
+        document.getElementById("s2_bm").style.opacity = opa_m + "%";
+        
+        document.getElementById("n1").style.opacity = 75 + "%";
+        document.getElementById("n2").style.opacity = 75 + "%";
+        document.getElementById("n3").style.opacity = 75 + "%";
+        document.getElementById("n4").style.opacity = 75 + "%";
+        document.getElementById("n5").style.opacity = 75 + "%";
+        document.getElementById("n6").style.opacity = 75 + "%";
+        document.getElementById("n7").style.opacity = 75 + "%";
+        document.getElementById("n8").style.opacity = 75 + "%";
+        document.getElementById("n9").style.opacity = 75 + "%";
+
+        document.getElementById("s2_cifra_1i").style.color = "#4e6294";
+        document.getElementById("s2_cifra_5i").style.color = "#4e6294";
+        document.getElementById("s2_cifra_6i").style.color = "#4e6294";
+        document.getElementById("s2_cifra_9i").style.color = "#4e6294";
+        document.getElementById("s2_cifra_2").style.color = "#efd7d5";
+        document.getElementById("s2_cifra_3").style.color = "#efd7d5";
+        document.getElementById("s2_cifra_4").style.color = "#efd7d5";
+        document.getElementById("s2_cifra_7").style.color = "#efd7d5";
+        document.getElementById("s2_cifra_8").style.color = "#efd7d5";
+
+        
+        if (i==1) {
+            document.getElementById("n1").style.opacity = 100 + "%";
+            document.getElementById("s2_cifra_1i").style.color = "#c34aac";
+                        
+        }  
+        if (i==2) {
+            document.getElementById("n2").style.opacity = 100 + "%";
+            document.getElementById("s2_cifra_2").style.color = "#c34aac";
+        } 
+        if (i==3) {
+            document.getElementById("n3").style.opacity = 100 + "%";
+            document.getElementById("s2_cifra_3").style.color = "#c34aac";
+        } 
+        if (i==4) {
+            document.getElementById("n4").style.opacity = 100 + "%";
+            document.getElementById("s2_cifra_4").style.color = "#c34aac";
+        } 
+        if (i==5) {
+            document.getElementById("n5").style.opacity = 100 + "%";
+            document.getElementById("s2_cifra_5i").style.color = "#c34aac";
+        } 
+        if (i==6) {
+            document.getElementById("n6").style.opacity = 100 + "%";
+            document.getElementById("s2_cifra_6i").style.color = "#c34aac";
+        } 
+        if (i==7) {
+            document.getElementById("n7").style.opacity = 100 + "%";
+            document.getElementById("s2_cifra_7").style.color = "#c34aac";
+        } 
+        if (i==8) {
+            document.getElementById("n8").style.opacity = 100 + "%";
+            document.getElementById("s2_cifra_8").style.color = "#c34aac";
+        } 
+        if (i==9) {
+            document.getElementById("n9").style.opacity = 100 + "%";
+            document.getElementById("s2_cifra_9i").style.color = "#c34aac";
+        }
    }
 
+   function s2_actualizar(){
+        document.getElementById("n1").style.opacity = 100 + "%";
+        document.getElementById("n2").style.opacity = 100 + "%";
+        document.getElementById("n3").style.opacity = 100 + "%";
+        document.getElementById("n4").style.opacity = 100 + "%";
+        document.getElementById("n5").style.opacity = 100 + "%";
+        document.getElementById("n6").style.opacity = 100 + "%";
+        document.getElementById("n7").style.opacity = 100 + "%";
+        document.getElementById("n8").style.opacity = 100 + "%";
+        document.getElementById("n9").style.opacity = 100 + "%";
+   
+        document.getElementById("s2_cifra_1i").style.color = "#4e6294";
+        document.getElementById("s2_cifra_5i").style.color = "#4e6294";
+        document.getElementById("s2_cifra_6i").style.color = "#4e6294";
+        document.getElementById("s2_cifra_9i").style.color = "#4e6294";
+        document.getElementById("s2_cifra_2").style.color = "#efd7d5";
+        document.getElementById("s2_cifra_3").style.color = "#efd7d5";
+        document.getElementById("s2_cifra_4").style.color = "#efd7d5";
+        document.getElementById("s2_cifra_7").style.color = "#efd7d5";
+        document.getElementById("s2_cifra_8").style.color = "#efd7d5";
+
+        document.getElementById("s2_bs").style.background = "#4e6294";
+        document.getElementById("s2_bt").style.background = "#4e6294";
+        document.getElementById("s2_be").style.background = "#4e6294";
+        document.getElementById("s2_bm").style.background = "#4e6294";
+
+        
+        document.getElementById("s2_bs").style.opacity = 100 + "%";
+        document.getElementById("s2_bt").style.opacity = 80 + "%";
+        document.getElementById("s2_be").style.opacity = 60 + "%";
+        document.getElementById("s2_bm").style.opacity = 40 + "%";
+
+        document.getElementById("s2_bs").style.width = "100%";
+        document.getElementById("s2_bt").style.width = "100%";
+        document.getElementById("s2_be").style.width = "100%";
+        document.getElementById("s2_bm").style.width = "100%";
+
+        document.getElementById("s2_bs").style.color = "";
+        document.getElementById("s2_bt").style.color = "";
+        document.getElementById("s2_be").style.color = "";
+        document.getElementById("s2_bm").style.color = "";
+
+        document.getElementById("s2_bs").textContent = "-";
+        document.getElementById("s2_bt").textContent = "-";
+        document.getElementById("s2_be").textContent = "-";
+        document.getElementById("s2_bm").textContent = "-";
+    }
+    
    </script>
 
     
@@ -392,7 +489,6 @@
             </div>
         </div>
         <div class="seccion_derecha1">
-            <p>Aún existe una diferencia importante ciertos temas. Uno de ellos es la:</p>
             <p><strong id="palabrafuerte">Desigualdad de sueldos.</strong></p>
             <p> A continuación se presentan los datos de los <strong>ingresos medios mensuales </strong> de las personas ocupadas por sexo exponiendo la <strong>diferencia </strong> que existe entre el ingreso medio de las mujeres ocupadas con respecto al de los hombres ocupados.</p>
         </div>
@@ -442,7 +538,7 @@
             <div class="flip-box-inner">
               <div class="flip-box-front">
                 <p class="palabraa"> A medida que pasan los años más mujeres estudian, trabajan y se incorporan en nuevas áreas. Sin embargo, este tipo de situaciones son un índice de que aún no se ha llegado a la igualdad en el ámbito laboral.</p>
-                <p class="palabraa" >A pesar de que hay ciertos aspectos que no repercuten en la participación femenina...</p>
+                <p class="palabra_importante" >A pesar de que hay ciertos aspectos que no repercuten en la participación femenina...</p>
                 <p class="palabraa"> <strong class="negrita">¡Pasa el cursor por encima para saber más!</strong></p>
               </div>
               <div class="flip-box-back">
