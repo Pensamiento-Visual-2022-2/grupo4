@@ -165,7 +165,7 @@ figure:hover > figcaption {
   padding-left: 50px;
   margin-top: 5px;
   font-size: 35px;
-  color:#CE77BE ;
+  color:#c34aac ;
 }
 
 
@@ -289,7 +289,7 @@ figure:hover > figcaption {
   background-color: transparent;
   width: 600px;
   height: 200px;
-  border: 1px solid #CE77BE;
+  border: 1px solid #c34aac;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   border-radius: 50px;
 }
@@ -323,7 +323,7 @@ figure:hover > figcaption {
 
 /* Style the front side */
 .flip-box-front {
-  background-color: #CE77BE;
+  background-color: #c34aac;
 }
 
 /* Style the back side */
@@ -389,12 +389,12 @@ figure:hover > figcaption {
   font-size: 22px;
 }
 .negrita2{
-  color:#CE77BE;
+  color:#c34aac;
   font-size: 17px;
 }
 .titulo3{
   font-size: 40px;
-  color:#CE77BE;
+  color:#c34aac;
   text-align: center;
   font-display: bold;
   padding-top: 15px;
@@ -403,7 +403,7 @@ figure:hover > figcaption {
 .color-select{
   width: 1400px;
   height: 5px;
-  background-color:#CE77BE  ;
+  background-color:#c34aac  ;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -459,7 +459,7 @@ figure:hover > figcaption {
   position: absolute;
   height: 70px;
   width: 510px;
-  background-color: #CE77BE ;
+  background-color: #c34aac ;
   border-radius: 10px;
 }
 .palabranegrita{
@@ -489,7 +489,7 @@ figure:hover > figcaption {
   width: 33.33%;
 }
 .seccion_derecha2{
-  background: #CE77BE;
+  background: #c34aac;
   position: absolute;
   width: 25%;
   right: 0%;
@@ -657,7 +657,7 @@ figure:hover > figcaption {
 
 
 #navbar li:hover {
-  background-color: #CE77BE;
+  background-color: #c34aac;
   color: black;
 }
 
