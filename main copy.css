@@ -16,7 +16,9 @@ header{
   color: #EFD7D5;
  
 }
-
+h4{
+  padding: 0%;
+}
 .titulo{
   font-size: 40px;
   color:#4e6294;
@@ -27,9 +29,9 @@ header{
 }
 
 .titulo_2{
-  font-size: 70px;
+  font-size: 60px;
   color:#4e6294;
-  padding-top: 190px;
+  padding-top: 300px;
   font-display: bold;
   text-align: center;
 }
@@ -242,7 +244,6 @@ figure:hover > figcaption {
 }
 
 
-
 #s2_datos_2{
   display: flex;
   align-items: center;
@@ -327,6 +328,7 @@ figure:hover > figcaption {
 }
 
 
+
 #s2_datos_2_d{
   display: flex;
   align-items: center;
@@ -334,16 +336,19 @@ figure:hover > figcaption {
   flex-direction: column;
   margin-top: 20px;
   width: 60%;
-  color: #c34aac;
+  background: #c34aac;
   font-size: 20px;
   width: 30%;
   margin-left: 180px;
   margin-top: 60px;
+  box-shadow: 3px 5px 5px;
+  border-radius: 50px;
+  padding: 20px;
 }
 
 .s2_p{
   font-size: 15px;
-  color: #4e6294;
+  color: #efd7d5;
 }
 
 
@@ -401,7 +406,7 @@ figure:hover > figcaption {
   position:absolute;
   width: 80%;
   padding: 10%;
-  top: 1700px;
+  top: 1500px;
   min-height: 400px;
   display: flex;
   align-items: center;
@@ -433,7 +438,7 @@ figure:hover > figcaption {
   width: 35%;
   right: 0%;
   margin-right: 475px;
-  top: 2700px;
+  top: 2500px;
   padding: 20px;
   justify-content: center;
   flex-direction: column;
@@ -456,6 +461,10 @@ figure:hover > figcaption {
 .negrita2{
   color:#c34aac;
   font-size: 17px;
+}
+.negrita3{
+  color:#c34aac;
+  font-size: 22px;
 }
 .titulo3{
   font-size: 40px;
@@ -518,7 +527,7 @@ figure:hover > figcaption {
 }
 
 .textox{
-  margin-top: 2220px;
+  margin-top: 2020px;
   margin-left: 487.2px;
   color: #131200;
   position: absolute;
@@ -542,7 +551,7 @@ figure:hover > figcaption {
 }
 
 #fraseseccion3{
-  margin-top: 2980px;
+  margin-top: 2780px;
   text-align: center;
   padding: left;
   font-size: 40px;
@@ -579,13 +588,19 @@ figure:hover > figcaption {
 
 #seccion4_izquierda{
   position: absolute;
-  top: 3300px;
+  top: 3400px;
+  width: 60%;
+  margin: 30px;
+}
+#seccion_4_1{
+  position: absolute;
+  top: 2900px;
 }
 
 #seccion4_derecha{
   position: absolute;
-  top: 3700px;
-  min-height: 550px;
+  top: 3460px;
+  min-height: 450px;
 }
 
 #seccion4_izquierda img{
@@ -668,7 +683,7 @@ figure:hover > figcaption {
   position:absolute;
   width: 80%;
   padding: 10%;
-  top: 4250px;
+  top: 4000px;
   min-height: 400px;
   display: flex;
   align-items: center;
@@ -696,10 +711,10 @@ figure:hover > figcaption {
   position:absolute;
   padding: 10px;
   margin: 10px;
-  top: 4700px;
+  top: 4500px;
   background:#4e6294 ;
   height: 100px;
-  width: 97%;
+  width: 100%;
  
 }
 
